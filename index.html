@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPSC Quiz App</title>
+    <link rel="stylesheet" href="styles-light.css" id="theme-style">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Quiz App</h1>
+            <p>Your ultimate preparation companion!</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="showSection('home-screen')">Home</a></li>
+                <!-- <li><a href="#take-quiz" onclick="showSection('quiz-screen')">Take Quiz</a></li> -->
+                <li><a href="#review-answers" onclick="showSection('review-screen')">Review Answers</a></li>
+                <li><a href="#performance-statistics" onclick="showSection('performance-screen')">Performance Statistics</a></li>
+                <li><a href="#settings" onclick="showSection('settings-screen')">Bookmarks</a></li>
+                <li><a href="#profile" onclick="showSection('profile-screen')">Profile</a></li>
+            </ul>
+        </nav>
+        <main id="home-screen">
+            <button id="quick-start" onclick="startQuiz()">Start Quiz</button>
+        </main>
+        <main id="quiz-screen" style="display:none;">
+            <div class="timer" id="timer">Time left: 3:00</div>
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+            <div id="question-container">
+                <p id="question"></p>
+                <div id="options">
+                    <!-- Options will be populated here -->
+                </div>
+                <button id="bookmark-button">Bookmark</button>
+                <textarea id="note-text" placeholder="Add a note"></textarea>
+                <button id="add-note-button">Add Note</button>
+            </div>
+            <div class="navigation-buttons">
+                <button id="prev" onclick="prevQuestion()">Previous</button>
+                <button id="skip" onclick="skipQuestion()">Skip</button>
+                <button id="next" onclick="nextQuestion()">Next</button>
+                <button id="submit" onclick="submitQuiz()">Submit</button>
+            </div>
+        </main>
+        <main id="review-screen" style="display:none;">
+            <h2>Review Answers</h2>
+            <div id="review-container">
+                <!-- Answered questions and explanations will be populated here -->
+            </div>
+            <h3>Score Summary</h3>
+            <p id="score-summary"></p>
+        </main>
+        <main id="performance-screen" style="display:none;">
+            <h2>Performance Statistics</h2>
+            <canvas id="performanceChart" width="400" height="200"></canvas>
+            <div id="historical-data">
+                <h3>Past Quiz Results</h3>
+                <ul id="past-results">
+                    <!-- Historical data will be populated here -->
+                </ul>
+            </div>
+        </main>
+        <main id="settings-screen" style="display:none;">
+            <div id="bookmarks">
+                <h3><U>Bookmarks</U></h3>
+                <ul id="bookmark-list">
+                    <!-- Bookmarked questions will be listed here -->
+                </ul>
+            </div>
+            <div id="notes">
+                <h3><U>Notes</U></h3>
+                <ul id="notes-list">
+                    <!-- Notes will be listed here -->
+                </ul>
+            </div>
+        </main>
+        <main id="profile-screen" style="display:none;">
+            <h2>Profile</h2>
+            <section id="user-info">
+                <h3>User Information</h3>
+                <img src=" " alt="User Photo" id="user-photo">
+                <input type="file" id="photo-upload" accept="image/*" onchange="previewPhoto(event)" style="display:none;">
+                <button id="edit-photo" onclick="triggerPhotoUpload()">Upload Photo</button>
+                <textarea id="bioText" placeholder="Enter your bio..."></textarea>
+                <button id="bioButton" onclick="saveBio()">Add Bio</button>
+            </section>
+       
+            <section id="preferences">
+                <h3>Preferences</h3>
+                <label for="theme">Theme:</label>
+                <select id="theme">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </select>
+                <br>
+                <label for="language">Language:</label>
+                <select id="language">
+                    <option value="english">English</option>
+                    <option value="hindi">Hindi</option>
+                    <!-- More languages -->
+                </select>
+                <br>
+                <label for="notifications">Notifications:</label>
+                <select id="notifications">
+                    <option value="enabled">Enabled</option>
+                    <option value="disabled">Disabled</option>
+                </select>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
