@@ -1,0 +1,295 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 18px;
+}
+
+nav {
+    background-color: #3700b3;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #6200ea;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#quick-start {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.timer {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    height: 20px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress-bar #progress {
+    background-color: #6200ea;
+    height: 100%;
+    width: 0;
+}
+
+#question-container {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#options {
+    margin-top: 10px;
+}
+
+#options label {
+    display: block;
+    margin: 5px 0;
+}
+
+.navigation-buttons {
+    margin: 20px 0;
+}
+
+.navigation-buttons button {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.navigation-buttons button:hover {
+    background-color: #3700b3;
+}
+
+#review-container {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.review-question {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.correct {
+    background-color: #d4edda;
+}
+
+.incorrect {
+    background-color: #f8d7da;
+}
+
+#score-summary {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#performance-screen {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#historical-data {
+    margin-top: 20px;
+}
+
+#past-results {
+    list-style-type: none;
+    padding: 0;
+}
+
+#past-results li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#profile-screen {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#user-info {
+    text-align: center;
+}
+
+#user-info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 5.8rem;
+}
+
+#user-info p {
+    margin: 10px 0;
+}
+
+#photo-upload {
+    margin-top: 10px;
+}
+
+#edit-photo {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#edit-photo:hover {
+    background-color: #3700b3;
+}
+
+#achievements ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#achievements li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#preferences {
+    margin-top: 20px;
+}
+
+#preferences label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#preferences select {
+    width: 100%;
+    padding: 5px;
+}
+
+/* styles for bookmark and note buttons */
+#bookmark-button, #add-note-button {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#bookmark-button:hover, #add-note-button:hover {
+    background-color: #3700b3;
+}
+
+#note-text {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#bioText{
+    width: 100%;
+    min-height: 60px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+    resize: vertical;
+    margin-top: 5px;
+    margin-left: -0.5rem;
+    justify-self: auto;
+}
+#bioButton {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
