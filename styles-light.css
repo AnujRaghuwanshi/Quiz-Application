@@ -293,3 +293,95 @@ main {
     cursor: pointer;
     margin-top: 10px;
 }
+
+/* General styles for mobile */
+@media (max-width: 525px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    header, nav, main {
+        padding: 10px;
+        margin: 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    #user-info img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #edit-photo {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    #achievements ul {
+        padding: 0;
+    }
+
+    #achievements li {
+        font-size: 14px;
+    }
+
+    #preferences label, #preferences select {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    #preferences select {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .navigation-buttons button {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    #question-container {
+        padding: 10px;
+    }
+
+    #bookmark-button, #add-note-button {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    #note-text {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    #bookmark-list, #notes-list {
+        padding-left: 0;
+    }
+
+    #bookmark-list li, #notes-list li {
+        font-size: 14px;
+        padding: 5px 0;
+    }
+}
