@@ -105,6 +105,13 @@ function startQuiz() {
     startTimer();
 }
 
+function saveAnswer() {
+    let selectedOption = document.querySelector('input[name="option"]:checked');
+    if (selectedOption) {
+        userAnswers[currentQuestionIndex] = selectedOption.value;
+    } 
+    localStorage.setItem('userAnswers', JSON.stringify(userAnswers));
+}
 function loadQuestion() {
     let question = questions[currentQuestionIndex];
     document.getElementById('question').innerText = question.question;
@@ -122,12 +129,25 @@ function loadQuestion() {
     });
     updateProgress();
 }
+function loadAnswer() {
+    let selectedAnswer = userAnswers[currentQuestionIndex];
+
+    // If there's a saved answer for this question, check the corresponding radio button
+    if (selectedAnswer !== null && selectedAnswer !== undefined) {
+        const optionElement = document.querySelector(`input[name="option"][value="${selectedAnswer}"]`);
+        if (optionElement) {
+            optionElement.checked = true;
+        }
+    }
+}
+
 
 function nextQuestion() {
     saveAnswer();
     if (currentQuestionIndex < questions.length - 1) {
         currentQuestionIndex++;
         loadQuestion();
+        loadAnswer();
     }
 }
 
@@ -136,6 +156,7 @@ function prevQuestion() {
     if (currentQuestionIndex > 0) {
         currentQuestionIndex--;
         loadQuestion();
+        loadAnswer();
     }
 }
 
@@ -172,14 +193,7 @@ function updateProgress() {
     document.getElementById('progress').style.width = progress + '%';
 }
 
-function saveAnswer() {
-    let selectedOption = document.querySelector('input[name="option"]:checked');
-    if (selectedOption) {
-        userAnswers[currentQuestionIndex] = selectedOption.value;
-    } else {
-        userAnswers[currentQuestionIndex] = null;
-    }
-}
+
 
 function calculateScore() {
     let score = 0;
@@ -374,12 +388,27 @@ function loadBookmarks() {
 
 function addBookmark(question) {
     const bookmarks = JSON.parse(localStorage.getItem("bookmarks")) || [];
-    const id = Date.now();
-    const bookmark = { id, text: question };
-    bookmarks.push(bookmark);
-    localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
-    loadBookmarks();
+    const isBookmarked = bookmarks.some(bookmark => bookmark.text === question);
+    
+    if (isBookmarked) {
+        alert("This question is already bookmarked.");
+    } else {
+        const id = Date.now();  // Create a unique ID for the bookmark
+        const bookmark = { id, text: question };  // Store both id and question text
+
+        bookmarks.push(bookmark);  // Add the new bookmark
+        localStorage.setItem("bookmarks", JSON.stringify(bookmarks));  // Save to localStorage
+        loadBookmarks();  // Refresh the bookmarks list
+        Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Question Bookmarked",
+            showConfirmButton: false,
+            timer: 1500
+          });
+    }
 }
+
 
 function deleteBookmark(id) {
     // Retrieve existing bookmarks
@@ -403,9 +432,14 @@ function loadNotes() {
     notes.forEach(note => {
         const li = document.createElement("li");
         const textNode1 = document.createTextNode(note.question+"  ");
-        const textNode2 = document.createTextNode(note.text);
+        
+        const textNode2 = document.createElement("span");
+        textNode2.textContent = note.text;  // Add the note text
+
+        textNode2.className = "Node_text";
+
         const deleteButton = document.createElement('button');
-        deleteButton.className = 'delete-btn';
+        deleteButton.className = 'deleteNote-btn';
         deleteButton.setAttribute('data-id', note.id);
         const icon = document.createElement('i');
         icon.className = 'fas fa-trash';
@@ -413,8 +447,17 @@ function loadNotes() {
         deleteButton.addEventListener('click', function() {
             deleteNote(note.id);
         });
+        
+        const editButton = document.createElement('button');
+        editButton.className = 'edit-btn';
+        editButton.innerHTML = '✏️';  // Use the pencil icon directly
+        editButton.addEventListener('click', function () {
+            editNote(note.id);
+        });
+
         li.appendChild(textNode1);
         li.appendChild(textNode2);
+        li.appendChild(editButton);
         li.appendChild(deleteButton);
         notesList.appendChild(li);
     });
@@ -422,11 +465,43 @@ function loadNotes() {
 
 function addNoteToQuestion(question, text) {
     const notes = JSON.parse(localStorage.getItem("notes")) || [];
-    const id = Date.now();
-    notes.push({id, question, text });
-    localStorage.setItem("notes", JSON.stringify(notes));
-    loadNotes();
+    const isNoted = notes.some(note => note.question === question);
+
+    if (isNoted) {
+        alert("Note for this question already exists.", "error");
+    } else {
+        const id = Date.now();  // Create a unique ID for the note
+        notes.push({ id, question, text });  // Add the note with id, question, and text
+        localStorage.setItem("notes", JSON.stringify(notes));  // Save to localStorage
+        loadNotes();  // Reload the notes section
+        Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Note Added",
+            showConfirmButton: false,
+            timer: 1500
+          });
+    }
 }
+
+function editNote(id) {
+    const notes = JSON.parse(localStorage.getItem("notes")) || [];
+    const noteToEdit = notes.find(note => note.id === id);
+
+    if (noteToEdit) {
+        const newText = prompt("Edit your note:", noteToEdit.text);
+
+        if (newText !== null && newText.trim() !== "") {
+            noteToEdit.text = newText;  // Update the note text
+            localStorage.setItem("notes", JSON.stringify(notes));  // Save the updated notes to localStorage
+            loadNotes();  // Reload the notes to reflect changes
+            showMessage("Note updated successfully!", "success");
+        }
+    } else {
+        showMessage("Note not found.", "error");
+    }
+}
+
 
 function deleteNote(id) {
     // Retrieve existing bookmarks

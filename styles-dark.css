@@ -254,7 +254,9 @@ main {
     list-style-type: none;
     padding: 0;
 }
-
+#note-list li{
+    overflow: auto;
+}
 #bookmark-list li,#notes-list li  {
     display: flex;
     align-items: center;
@@ -263,6 +265,14 @@ main {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+
+.Node_text{
+    display: block; 
+    margin-top: 5px;
+    font-style: italic; 
+    color: #680747;
+}
+
 #bookmark-list .delete-btn {
     background: none;
     border: none;
@@ -414,4 +424,32 @@ main {
         font-size: 14px;
         padding: 5px 0;
     }
+}
+
+/* Note  */
+.edit-btn {
+    margin-left: 705px; /* Add some space between buttons */
+    padding: 2px; /* Add padding for a better look */
+    border: none; /* Remove default border */
+    background-color: transparent; /* Make background transparent */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 18px;
+    margin-top: -5px;
+    color: red;
+    position: fixed;
+}
+#notes-list .deleteNote-btn{
+    position: absolute; /* Position the delete button absolutely */
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 16px; /* Icon size */
+    transition: color 0.3s ease;
+    margin-left: 740px;
+    position: fixed;
+}
+/* Optional hover effects */
+.edit-btn:hover, .deleteNote-btn:hover {
+    opacity: 0.8; /* Slightly dim on hover */
 }

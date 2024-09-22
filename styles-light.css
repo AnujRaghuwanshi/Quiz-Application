@@ -101,6 +101,9 @@ main {
     margin: 20px auto;
     max-width: 600px;
 }
+#question{
+    font-weight: bold;
+}
 
 #options {
     margin-top: 10px;
@@ -277,7 +280,7 @@ main {
     border-radius: 5px;
     position: relative;
 }
-#bookmark-list .delete-btn ,#notes-list .delete-btn {
+#bookmark-list .delete-btn  {
     position: absolute; /* Position the delete button absolutely */
     top: 50%; /* Align vertically to the middle */
     right: 10px; /* Align to the right edge */
@@ -290,7 +293,7 @@ main {
     transition: color 0.3s ease;
 }
 
-#bookmark-list .delete-btn:hover,#notes-list .delete-btn:hover {
+#bookmark-list .delete-btn:hover,#notes-list .deleteNote-btn:hover {
     color: darkred; /* Color when hovering */
 }
 #notes-list li {
@@ -302,10 +305,16 @@ main {
     border: 1px solid #ddd;
     border-radius: 5px;
     word-wrap: break-word; 
-    max-width: 100%; 
-    overflow: hidden; 
+    max-width: 100%; ; 
     text-overflow: ellipsis; 
     white-space: pre-wrap; 
+    overflow: auto;
+}
+.Node_text{
+    display: block; 
+    margin-top: 5px;        
+    font-style: italic; 
+    color: #680747;
 }
 
 #note-text {
@@ -430,4 +439,31 @@ main {
         font-size: 14px;
         padding: 5px 0;
     }
+}
+/* Note  */
+.edit-btn {
+    margin-left: 705px; /* Add some space between buttons */
+    padding: 2px; /* Add padding for a better look */
+    border: none; /* Remove default border */
+    background-color: transparent; /* Make background transparent */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 18px;
+    margin-top: -5px;
+    color: red;
+    position: fixed;
+}
+#notes-list .deleteNote-btn{
+    position: absolute; /* Position the delete button absolutely */
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 16px; /* Icon size */
+    transition: color 0.3s ease;
+    margin-left: 740px;
+    position: fixed;
+}
+/* Optional hover effects */
+.edit-btn:hover, .deleteNote-btn:hover {
+    opacity: 0.8; /* Slightly dim on hover */
 }
