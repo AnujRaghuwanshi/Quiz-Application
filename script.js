@@ -173,12 +173,25 @@ function loadQuestion() {
     });
     updateProgress();
 }
+function loadAnswer() {
+    let selectedAnswer = userAnswers[currentQuestionIndex];
+
+    // If there's a saved answer for this question, check the corresponding radio button
+    if (selectedAnswer !== null && selectedAnswer !== undefined) {
+        const optionElement = document.querySelector(`input[name="option"][value="${selectedAnswer}"]`);
+        if (optionElement) {
+            optionElement.checked = true;
+        }
+    }
+}
+
 
 function nextQuestion() {
     saveAnswer();
     if (currentQuestionIndex < questions.length - 1) {
         currentQuestionIndex++;
         loadQuestion();
+         loadAnswer();
     }
 }
 
@@ -187,6 +200,7 @@ function prevQuestion() {
     if (currentQuestionIndex > 0) {
         currentQuestionIndex--;
         loadQuestion();
+         loadAnswer();
     }
 }
 
