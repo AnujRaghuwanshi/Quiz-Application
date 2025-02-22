@@ -1,12 +1,6 @@
 // script.js
 
 //Theme
-document.addEventListener("DOMContentLoaded", () => {
-    loadPreferences();
-    setupEventListeners();
-    loadBookmarks();
-    loadNotes();
-});
 
 function loadPreferences() {
     const savedTheme = localStorage.getItem("theme") || "light";
@@ -72,77 +66,33 @@ const translations = {
     }
 };
 
-function loadBookmarks() {
-    const bookmarks = JSON.parse(localStorage.getItem("bookmarks")) || [];
-    const bookmarkList = document.getElementById("bookmark-list");
-    bookmarkList.innerHTML = '';
-    bookmarks.forEach(bookmark => {
-        const li = document.createElement("li");
-        li.textContent = bookmark;
-        bookmarkList.appendChild(li);
-    });
-}
-
-function addBookmark(question) {
-    const bookmarks = JSON.parse(localStorage.getItem("bookmarks")) || [];
-    bookmarks.push(question);
-    localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
-    loadBookmarks();
-}
-
-function loadNotes() {
-    const notes = JSON.parse(localStorage.getItem("notes")) || [];
-    const notesList = document.getElementById("notes-list");
-    notesList.innerHTML = '';
-    notes.forEach(note => {
-        const li = document.createElement("li");
-        li.textContent = `${note.question}: ${note.text}`;
-        notesList.appendChild(li);
-    });
-}
-
-function addNoteToQuestion(question, text) {
-    const notes = JSON.parse(localStorage.getItem("notes")) || [];
-    notes.push({ question, text });
-    localStorage.setItem("notes", JSON.stringify(notes));
-    loadNotes();
-}
-
-document.getElementById("bookmark-button").addEventListener("click", () => {
-    const question = document.getElementById("question").textContent;
-    addBookmark(question);
-});
-
-document.getElementById("add-note-button").addEventListener("click", () => {
-    const question = document.getElementById("question").textContent;
-    const noteText = document.getElementById("note-text").value;
-    addNoteToQuestion(question, noteText);
-    document.getElementById("note-text").value = '';
-});
-
-
-
-
 let currentQuestionIndex = 0;
-let questions = [
-    {
-        question: "What is the capital of India?",
-        options: ["New Delhi", "Mumbai", "Kolkata", "Chennai"],
-        answer: "New Delhi",
-        explanation: "New Delhi is the capital city of India."
-    },
-    {
-        question: "Who is the current Prime Minister of India?",
-        options: ["Narendra Modi", "Rahul Gandhi", "Amit Shah", "Manmohan Singh"],
-        answer: "Narendra Modi",
-        explanation: "Narendra Modi has been the Prime Minister of India since 2014."
-    }
-    // Add more questions as needed
-];
 let userAnswers = [];
+let questions = [];
 let timer;
-let timeLeft = 180; // 10 minutes
+let timeLeft = 10800; 
 let pastResults = JSON.parse(localStorage.getItem('pastResults')) || []; // Retrieve past results from localStorage
+
+document.addEventListener("DOMContentLoaded",async () => {
+    await loadQuestions();
+    loadPreferences();
+    setupEventListeners();
+    loadBookmarks();
+    loadNotes();
+});
+
+async function loadQuestions() {
+    try {
+        const response = await fetch('questions.json'); // Ensure correct file path
+        if (!response.ok) throw new Error("Failed to load questions");
+        questions = await response.json();
+        console.log("Questions loaded:", questions);
+    } catch (error) {
+        console.error("Error loading questions:", error);
+    }
+}
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     // Display past results on load
@@ -150,10 +100,22 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function startQuiz() {
+    if (questions.length === 0) {
+        alert("No questions available.");
+        return;
+    }
     document.getElementById('home-screen').style.display = 'none';
     document.getElementById('quiz-screen').style.display = 'block';
     loadQuestion();
     startTimer();
+}
+
+function saveAnswer() {
+    let selectedOption = document.querySelector('input[name="option"]:checked');
+    if (selectedOption) {
+        userAnswers[currentQuestionIndex] = selectedOption.value;
+    } 
+    localStorage.setItem('userAnswers', JSON.stringify(userAnswers));
 }
 
 function loadQuestion() {
@@ -173,6 +135,7 @@ function loadQuestion() {
     });
     updateProgress();
 }
+
 function loadAnswer() {
     let selectedAnswer = userAnswers[currentQuestionIndex];
 
@@ -191,7 +154,7 @@ function nextQuestion() {
     if (currentQuestionIndex < questions.length - 1) {
         currentQuestionIndex++;
         loadQuestion();
-         loadAnswer();
+        loadAnswer();
     }
 }
 
@@ -200,7 +163,7 @@ function prevQuestion() {
     if (currentQuestionIndex > 0) {
         currentQuestionIndex--;
         loadQuestion();
-         loadAnswer();
+        loadAnswer();
     }
 }
 
@@ -225,9 +188,11 @@ function startTimer() {
             submitQuiz();
         } else {
             timeLeft--;
-            let minutes = Math.floor(timeLeft / 60);
-            let seconds = timeLeft % 60;
-            document.getElementById('timer').innerText = `Time left: ${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+            let hours = Math.floor(timeLeft / 3600); // Get hours
+            let minutes = Math.floor((timeLeft % 3600) / 60); // Get remaining minutes
+            let seconds = timeLeft % 60; // Get remaining seconds
+
+            document.getElementById('timer').innerText = `Time left: ${hours}:${minutes < 10 ? '0' + minutes : minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
         }
     }, 1000);
 }
@@ -237,14 +202,7 @@ function updateProgress() {
     document.getElementById('progress').style.width = progress + '%';
 }
 
-function saveAnswer() {
-    let selectedOption = document.querySelector('input[name="option"]:checked');
-    if (selectedOption) {
-        userAnswers[currentQuestionIndex] = selectedOption.value;
-    } else {
-        userAnswers[currentQuestionIndex] = null;
-    }
-}
+
 
 function calculateScore() {
     let score = 0;
@@ -270,11 +228,14 @@ function showReviewScreen() {
         } else {
             reviewQuestion.classList.add('incorrect');
         }
+        let explanationText = question.explanation && question.explanation.trim() !== "" 
+        ? question.explanation 
+        : "Not Available";
         reviewQuestion.innerHTML = `
             <p><strong>Question ${index + 1}:</strong> ${question.question}</p>
             <p><strong>Your answer:</strong> ${userAnswers[index] || 'Not Answered'}</p>
             <p><strong>Correct answer:</strong> ${question.answer}</p>
-            <p><strong>Explanation:</strong> ${question.explanation}</p>
+            <p><strong>Explanation:</strong> ${explanationText}</p>
         `;
         reviewContainer.appendChild(reviewQuestion);
     });
@@ -399,3 +360,185 @@ window.onload = function() {
         document.getElementById('bioButton').textContent = 'Update Bio';
     }
 };
+
+document.getElementById('delete-photo-button').addEventListener('click', () => {
+    localStorage.removeItem('userPhoto');
+    document.getElementById('user-photo').src='';
+    document.getElementById('user-photo').style.border='none';
+    // Optionally, you can also remove the file input value
+    document.getElementById('edit-photo').textContent = 'Upload Photo';
+});
+
+// bookmark & notes 
+
+function loadBookmarks() {
+    const bookmarks = JSON.parse(localStorage.getItem("bookmarks")) || [];
+    const bookmarkList = document.getElementById("bookmark-list");
+    bookmarkList.innerHTML = '';
+    bookmarks.forEach(bookmark => {
+        const li = document.createElement("li");
+
+        const textNode = document.createTextNode(bookmark.text);
+
+        const deleteButton = document.createElement('button');
+        // deleteButton.textContent = 'Delete';
+        deleteButton.className = 'delete-btn';
+        deleteButton.setAttribute('data-id', bookmark.id);
+        const icon = document.createElement('i');
+        icon.className = 'fas fa-trash';
+        deleteButton.appendChild(icon);
+        deleteButton.addEventListener('click', function() {
+            deleteBookmark(bookmark.id);
+        });
+
+       li.appendChild(textNode);
+       li.appendChild(deleteButton);
+
+        bookmarkList.appendChild(li);
+    });
+}
+
+function addBookmark(question) {
+    const bookmarks = JSON.parse(localStorage.getItem("bookmarks")) || [];
+    const isBookmarked = bookmarks.some(bookmark => bookmark.text === question);
+    
+    if (isBookmarked) {
+        alert("This question is already bookmarked.");
+    } else {
+        const id = Date.now();  // Create a unique ID for the bookmark
+        const bookmark = { id, text: question };  // Store both id and question text
+
+        bookmarks.push(bookmark);  // Add the new bookmark
+        localStorage.setItem("bookmarks", JSON.stringify(bookmarks));  // Save to localStorage
+        loadBookmarks();  // Refresh the bookmarks list
+        Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Question Bookmarked",
+            showConfirmButton: false,
+            timer: 1500
+          });
+    }
+}
+
+
+function deleteBookmark(id) {
+    // Retrieve existing bookmarks
+    const bookmarks = JSON.parse(localStorage.getItem('bookmarks')) || [];
+
+    // Filter out the bookmark with the specified id
+    const updatedBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
+
+    // Save updated bookmarks to localStorage
+    localStorage.setItem('bookmarks', JSON.stringify(updatedBookmarks));
+
+    // Reload bookmarks to update the display
+    loadBookmarks();
+}
+
+
+function loadNotes() {
+    const notes = JSON.parse(localStorage.getItem("notes")) || [];
+    const notesList = document.getElementById("notes-list");
+    notesList.innerHTML = '';
+
+    notes.forEach(note => {
+        const li = document.createElement("li");
+        const textNode1 = document.createTextNode(note.question+"  ");
+        
+        const textNode2 = document.createElement("span");
+        textNode2.textContent = note.text;  // Add the note text
+
+        textNode2.className = "Note_text";
+
+        const deleteButton = document.createElement('button');
+        deleteButton.className = 'deleteNote-btn';
+        deleteButton.setAttribute('data-id', note.id);
+        const icon = document.createElement('i');
+        icon.className = 'fas fa-trash';
+        deleteButton.appendChild(icon);
+        deleteButton.addEventListener('click', function() {
+            deleteNote(note.id);
+        });
+        
+        const editButton = document.createElement('button');
+        editButton.className = 'edit-btn';
+        editButton.innerHTML = '✏️';  // Use the pencil icon directly
+        editButton.addEventListener('click', function () {
+            editNote(note.id);
+        });
+
+        li.appendChild(textNode1);
+        li.appendChild(textNode2);
+        li.appendChild(editButton);
+        li.appendChild(deleteButton);
+        notesList.appendChild(li);
+    });
+}
+
+function addNoteToQuestion(question, text) {
+    const notes = JSON.parse(localStorage.getItem("notes")) || [];
+    const isNoted = notes.some(note => note.question === question);
+
+    if (isNoted) {
+        alert("Note for this question already exists.", "error");
+    } else {
+        const id = Date.now();  // Create a unique ID for the note
+        notes.push({ id, question, text });  // Add the note with id, question, and text
+        localStorage.setItem("notes", JSON.stringify(notes));  // Save to localStorage
+        loadNotes();  // Reload the notes section
+        Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Note Added",
+            showConfirmButton: false,
+            timer: 1500
+          });
+    }
+}
+
+function editNote(id) {
+    const notes = JSON.parse(localStorage.getItem("notes")) || [];
+    const noteToEdit = notes.find(note => note.id === id);
+
+    if (noteToEdit) {
+        const newText = prompt("Edit your note:", noteToEdit.text);
+
+        if (newText !== null && newText.trim() !== "") {
+            noteToEdit.text = newText;  // Update the note text
+            localStorage.setItem("notes", JSON.stringify(notes));  // Save the updated notes to localStorage
+            loadNotes();  // Reload the notes to reflect changes
+            showMessage("Note updated successfully!", "success");
+        }
+    } else {
+        showMessage("Note not found.", "error");
+    }
+}
+
+
+function deleteNote(id) {
+    // Retrieve existing bookmarks
+    const notes = JSON.parse(localStorage.getItem('notes')) || [];
+
+    // Filter out the bookmark with the specified id
+    const updatedNotes = notes.filter(note => note.id !== id);
+
+    // Save updated bookmarks to localStorage
+    localStorage.setItem('notes', JSON.stringify(updatedNotes));
+
+    // Reload bookmarks to update the display
+    loadNotes();
+}
+
+
+document.getElementById("bookmark-button").addEventListener("click", () => {
+    const question = document.getElementById("question").textContent;
+    addBookmark(question);
+});
+
+document.getElementById("add-note-button").addEventListener("click", () => {
+    const question = document.getElementById("question").textContent;
+    const noteText = document.getElementById("note-text").value;
+    addNoteToQuestion(question, noteText);
+    document.getElementById("note-text").value = '';
+});
