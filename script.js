@@ -1,12 +1,6 @@
 // script.js
 
 //Theme
-document.addEventListener("DOMContentLoaded", () => {
-    loadPreferences();
-    setupEventListeners();
-    loadBookmarks();
-    loadNotes();
-});
 
 function loadPreferences() {
     const savedTheme = localStorage.getItem("theme") || "light";
@@ -73,25 +67,32 @@ const translations = {
 };
 
 let currentQuestionIndex = 0;
-let questions = [
-    {
-        question: "What is the capital of India?",
-        options: ["New Delhi", "Mumbai", "Kolkata", "Chennai"],
-        answer: "New Delhi",
-        explanation: "New Delhi is the capital city of India."
-    },
-    {
-        question: "Who is the current Prime Minister of India?",
-        options: ["Narendra Modi", "Rahul Gandhi", "Amit Shah", "Manmohan Singh"],
-        answer: "Narendra Modi",
-        explanation: "Narendra Modi has been the Prime Minister of India since 2014."
-    }
-    // Add more questions as needed
-];
 let userAnswers = [];
+let questions = [];
 let timer;
-let timeLeft = 60; 
+let timeLeft = 10800; 
 let pastResults = JSON.parse(localStorage.getItem('pastResults')) || []; // Retrieve past results from localStorage
+
+document.addEventListener("DOMContentLoaded",async () => {
+    await loadQuestions();
+    loadPreferences();
+    setupEventListeners();
+    loadBookmarks();
+    loadNotes();
+});
+
+async function loadQuestions() {
+    try {
+        const response = await fetch('questions.json'); // Ensure correct file path
+        if (!response.ok) throw new Error("Failed to load questions");
+        questions = await response.json();
+        console.log("Questions loaded:", questions);
+    } catch (error) {
+        console.error("Error loading questions:", error);
+    }
+}
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     // Display past results on load
@@ -99,6 +100,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function startQuiz() {
+    if (questions.length === 0) {
+        alert("No questions available.");
+        return;
+    }
     document.getElementById('home-screen').style.display = 'none';
     document.getElementById('quiz-screen').style.display = 'block';
     loadQuestion();
@@ -112,6 +117,7 @@ function saveAnswer() {
     } 
     localStorage.setItem('userAnswers', JSON.stringify(userAnswers));
 }
+
 function loadQuestion() {
     let question = questions[currentQuestionIndex];
     document.getElementById('question').innerText = question.question;
@@ -129,6 +135,7 @@ function loadQuestion() {
     });
     updateProgress();
 }
+
 function loadAnswer() {
     let selectedAnswer = userAnswers[currentQuestionIndex];
 
@@ -181,9 +188,11 @@ function startTimer() {
             submitQuiz();
         } else {
             timeLeft--;
-            let minutes = Math.floor(timeLeft / 60);
-            let seconds = timeLeft % 60;
-            document.getElementById('timer').innerText = `Time left: ${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+            let hours = Math.floor(timeLeft / 3600); // Get hours
+            let minutes = Math.floor((timeLeft % 3600) / 60); // Get remaining minutes
+            let seconds = timeLeft % 60; // Get remaining seconds
+
+            document.getElementById('timer').innerText = `Time left: ${hours}:${minutes < 10 ? '0' + minutes : minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
         }
     }, 1000);
 }
@@ -219,11 +228,14 @@ function showReviewScreen() {
         } else {
             reviewQuestion.classList.add('incorrect');
         }
+        let explanationText = question.explanation && question.explanation.trim() !== "" 
+        ? question.explanation 
+        : "Not Available";
         reviewQuestion.innerHTML = `
             <p><strong>Question ${index + 1}:</strong> ${question.question}</p>
             <p><strong>Your answer:</strong> ${userAnswers[index] || 'Not Answered'}</p>
             <p><strong>Correct answer:</strong> ${question.answer}</p>
-            <p><strong>Explanation:</strong> ${question.explanation}</p>
+            <p><strong>Explanation:</strong> ${explanationText}</p>
         `;
         reviewContainer.appendChild(reviewQuestion);
     });
@@ -429,6 +441,7 @@ function loadNotes() {
     const notes = JSON.parse(localStorage.getItem("notes")) || [];
     const notesList = document.getElementById("notes-list");
     notesList.innerHTML = '';
+
     notes.forEach(note => {
         const li = document.createElement("li");
         const textNode1 = document.createTextNode(note.question+"  ");
@@ -436,7 +449,7 @@ function loadNotes() {
         const textNode2 = document.createElement("span");
         textNode2.textContent = note.text;  // Add the note text
 
-        textNode2.className = "Node_text";
+        textNode2.className = "Note_text";
 
         const deleteButton = document.createElement('button');
         deleteButton.className = 'deleteNote-btn';
