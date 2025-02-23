@@ -101,6 +101,9 @@ main {
     margin: 20px auto;
     max-width: 600px;
 }
+#question{
+    font-weight: bold;
+}
 
 #options {
     margin-top: 10px;
@@ -203,20 +206,21 @@ main {
 
 #photo-upload {
     margin-top: 10px;
+    border: none;
 }
 
-#edit-photo {
+#edit-photo, #delete-photo-button {
     background-color: #6200ea;
     color: white;
-    padding: 10px 20px;
+    padding: 8px 10px;
     border: none;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 12px;
     cursor: pointer;
     margin-top: 10px;
 }
 
-#edit-photo:hover {
+#edit-photo:hover,#delete-photo-button:hover {
     background-color: #3700b3;
 }
 
@@ -262,6 +266,61 @@ main {
 #bookmark-button:hover, #add-note-button:hover {
     background-color: #3700b3;
 }
+#bookmark-list,#notes-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#bookmark-list li {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 10px; /* Gap between list items */
+    padding: 5px;
+    padding-right: 22px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+
+}
+#bookmark-list .delete-btn  {
+    position: absolute; /* Position the delete button absolutely */
+    top: 50%; /* Align vertically to the middle */
+    right: -3px; /* Align to the right edge */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 16px; /* Icon size */
+    transition: color 0.3s ease;
+}
+
+#bookmark-list .delete-btn:hover,#notes-list .deleteNote-btn:hover {
+    color: darkred; /* Color when hovering */
+}
+#notes-list li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    word-wrap: break-word; 
+    max-width: 100%; ; 
+    text-overflow: ellipsis; 
+    white-space: pre-wrap; 
+    overflow: auto;
+    text-align: justify;
+}
+.Note_text{
+    display: block; 
+    margin-top: 5px;        
+    font-style: italic; 
+    color: #680747;
+    text-align: left;
+}
 
 #note-text {
     width: 100%;
@@ -293,6 +352,7 @@ main {
     cursor: pointer;
     margin-top: 10px;
 }
+
 
 /* General styles for mobile */
 @media (max-width: 525px) {
@@ -384,4 +444,31 @@ main {
         font-size: 14px;
         padding: 5px 0;
     }
+}
+/* Note  */
+.edit-btn {
+    margin-left: 705px; /* Add some space between buttons */
+    padding: 2px; /* Add padding for a better look */
+    border: none; /* Remove default border */
+    background-color: transparent; /* Make background transparent */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 18px;
+    margin-top: -5px;
+    color: red;
+    position: fixed;
+}
+#notes-list .deleteNote-btn{
+    position: absolute; /* Position the delete button absolutely */
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 16px; /* Icon size */
+    transition: color 0.3s ease;
+    margin-left: 740px;
+    position: fixed;
+}
+/* Optional hover effects */
+.edit-btn:hover, .deleteNote-btn:hover {
+    opacity: 0.8; /* Slightly dim on hover */
 }
