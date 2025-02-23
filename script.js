@@ -15,6 +15,11 @@ function loadPreferences() {
 function setupEventListeners() {
     document.getElementById("theme").addEventListener("change", changeTheme);
     document.getElementById("language").addEventListener("change", changeLanguage);
+
+    document.getElementById("QUIZ2").addEventListener("click", async function (event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        await loadQuestions('QUIZ2.json'); // Load questions from QUIZ2.json
+    });
 }
 
 function changeTheme() {
@@ -74,19 +79,19 @@ let timeLeft = 10800;
 let pastResults = JSON.parse(localStorage.getItem('pastResults')) || []; // Retrieve past results from localStorage
 
 document.addEventListener("DOMContentLoaded",async () => {
-    await loadQuestions();
+    await loadQuestions('questions.json');
     loadPreferences();
     setupEventListeners();
     loadBookmarks();
     loadNotes();
 });
 
-async function loadQuestions() {
+async function loadQuestions(filename) {
     try {
-        const response = await fetch('questions.json'); // Ensure correct file path
+        const response = await fetch(filename); // Ensure correct file path
         if (!response.ok) throw new Error("Failed to load questions");
         questions = await response.json();
-        console.log("Questions loaded:", questions);
+        console.log("Questions loaded:", filename);
     } catch (error) {
         console.error("Error loading questions:", error);
     }
