@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="styles-light.css" id="theme-style">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- sweet-alert -->
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -21,13 +26,14 @@
                 <li><a href="#performance-statistics" onclick="showSection('performance-screen')">Performance Statistics</a></li>
                 <li><a href="#settings" onclick="showSection('settings-screen')">Bookmarks</a></li>
                 <li><a href="#profile" onclick="showSection('profile-screen')">Profile</a></li>
+                <li><a href="#" id="QUIZ2">QUIZ-2</a></li>
             </ul>
         </nav>
         <main id="home-screen">
             <button id="quick-start" onclick="startQuiz()">Start Quiz</button>
         </main>
         <main id="quiz-screen" style="display:none;">
-            <div class="timer" id="timer">Time left: 3:00</div>
+            <div class="timer" id="timer">Time left:3:00:00</div>
             <div class="progress-bar">
                 <div id="progress"></div>
             </div>
@@ -83,9 +89,12 @@
             <h2>Profile</h2>
             <section id="user-info">
                 <h3>User Information</h3>
+                <div class="info" style="display: flexbox; margin-left: 70px;">
                 <img src=" " alt="User Photo" id="user-photo">
                 <input type="file" id="photo-upload" accept="image/*" onchange="previewPhoto(event)" style="display:none;">
                 <button id="edit-photo" onclick="triggerPhotoUpload()">Upload Photo</button>
+                <button id="delete-photo-button">Delete Photo</button>
+            </div>
                 <textarea id="bioText" placeholder="Enter your bio..."></textarea>
                 <button id="bioButton" onclick="saveBio()">Add Bio</button>
             </section>
