@@ -1,0 +1,1533 @@
+[
+    {
+        "question": [
+            "With reference to the Indian Constitution, consider the following statements:\n",
+            "1. The federal scheme in our Constitution does not adhere to the theory of ‘Equality of State Rights’.\n",
+            "2. The Council of States in our Constitution does not ensure equality of representation among states.\n",
+            "3. The Union of India comprises the territories of the states, the Union Territories, and any territories that India might acquire in the future.\n",
+            "4. The principle of an Independent Judiciary, as enshrined in the Constitution, does not contradict the essence of federalism.\n",
+            "How many of the statements given above are correct?"
+        ],
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All four"
+        ],
+        "answer": "c",
+        "explanation": {
+            "Statement 1": "Correct.",
+            "Statement 2": "Correct.",
+            "Statement 3": "Incorrect.",
+            "Statement 4": "Correct."
+        }
+    },
+    {
+        "question": [
+            "Consider the following statements:\n",
+            "1. The district judge possesses both judicial and administrative power.\n",
+            "2. The District Judges are appointed by the Governor in consultation with the High Courts.\n",
+            "3. The Session judge has the power to impose any sentence.\n",
+            "Which of the statements given above are correct?\n"
+        ],
+        "options": [
+            "(a) 2 only",
+            "(b) 1 and 2 only",
+            "(c) 1, 2, and 3",
+            "(d) 2 and 3 only"
+        ],
+        "answer": "c",
+        "explanation": {
+            "Statement 1": "Correct. The district judge has both judicial and administrative powers in the district judiciary.\n",
+            "Statement 2": "Correct. District Judges are appointed by the Governor in consultation with the respective High Court as per Article 233 of the Constitution.\n",
+            "Statement 3": "Correct. The Session Judge has the power to impose any sentence, including capital punishment, subject to confirmation by the High Court.\n"
+        }
+    },
+    {
+        "question": [
+            "Consider the following statements:\n",
+            "1. The Constitution of India states that the ministers hold office during the pleasure of the President.\n",
+            "2. There is no provision in the Constitution of India for the system of legal responsibility of a minister.\n",
+            "Which of the statements given above is/are correct?\n"
+        ],
+        "options": [
+            "(a) 1 only",
+            "(b) 2 only",
+            "(c) Both 1 and 2",
+            "(d) Neither 1 nor 2"
+        ],
+        "answer": "c",
+        "explanation": {
+            "Statement 1": "Correct. As per Article 75(2) of the Constitution, the ministers hold office during the pleasure of the President.\n",
+            "Statement 2": "Correct. The Indian Constitution does not provide for a system of legal responsibility of a minister, unlike the British parliamentary system.\n"
+        }
+    },
+    {
+        "question": [
+            "Consider the following statements:\n",
+            "1. The qualifications for the members of the Finance Commission are laid down in the Constitution.\n",
+            "2. The procedure for the removal of the members of the Finance Commission is the same as that of the Supreme Court judges.\n",
+            "3. The center and the states have equal say in appointing the members of the Finance Commission.\n",
+            "4. The Finance Commission is responsible for recommending the distribution of tax revenues between the center and the states.\n",
+            "How many of the statements given above are correct?\n"
+        ],
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All four"
+        ],
+        "answer": "b",
+        "explanation": {
+            "Statement 1": "Incorrect. The Constitution does not specify the qualifications for the members of the Finance Commission, leaving it to the discretion of the government.\n",
+            "Statement 2": "Incorrect. The members of the Finance Commission are not removed in the same manner as Supreme Court judges; their terms and conditions are determined by the President.\n",
+            "Statement 3": "Incorrect. The appointment of members of the Finance Commission is solely decided by the central government, with no role for the states.\n",
+            "Statement 4": "Correct. The Finance Commission is responsible for recommending the distribution of tax revenues between the center and the states as per Article 280 of the Constitution.\n"
+        }
+    },
+    {
+        "question": [
+            "Regarding the authority of the Governor under the Sixth Schedule, note the following points:\n",
+            "1. Establish a new autonomous district.\n",
+            "2. Expand the boundaries of any autonomous district.\n",
+            "3. Change the designation of any autonomous district.\n",
+            "4. Merge two or more autonomous districts or portions of them into a single autonomous district.\n",
+            "How many of the above statements are correct?\n"
+        ],
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All four"
+        ],
+        "answer": "d",
+        "explanation": {
+            "Statement 1": "Correct. The Governor has the power to establish a new autonomous district under the Sixth Schedule of the Indian Constitution.\n",
+            "Statement 2": "Correct. The Governor can expand the boundaries of any autonomous district as per constitutional provisions.\n",
+            "Statement 3": "Correct. The Governor has the authority to change the designation of any autonomous district.\n",
+            "Statement 4": "Correct. The Governor can merge two or more autonomous districts or portions of them into a single autonomous district.\n"
+        }
+    },
+    {
+        "question": [
+            "With reference to the removal of the Vice-President of India, consider the following statements:\n",
+            "1. The Constitution does not specify the grounds for removal of the Vice-President.\n",
+            "2. The resolution for removal must be moved only in the Rajya Sabha and must state the reasons for removal.\n",
+            "3. Once the resolution is passed in the Rajya Sabha, the Lok Sabha must pass the resolution by a simple majority of members present and voting.\n",
+            "How many of the statements given above are correct?\n"
+        ],
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) All three",
+            "(d) None"
+        ],
+        "answer": "c",
+        "explanation": {
+            "Statement 1": "Correct. The Constitution does not provide specific grounds for the removal of the Vice-President.\n",
+            "Statement 2": "Correct. The resolution for removal must originate in the Rajya Sabha and must state the reasons.\n",
+            "Statement 3": "Correct. Once passed by the Rajya Sabha, the Lok Sabha must approve it by a simple majority of members present and voting.\n"
+        }
+    },
+    {
+        "question": [
+            "Consider the following statements regarding special sessions of the Indian Parliament:\n",
+            "1. The term “special session” finds mention in the rulebook of Lok Sabha but does not feature in the Constitution of India.\n",
+            "2. They have been convened exclusively in response to situations involving national emergencies or crises.\n",
+            "3. Revoking an emergency under Article 352 requires a special House session where members can revoke it with a simple majority vote.\n",
+            "4. No precise protocols exist regarding the method or timing for the convening of such a session.\n",
+            "How many of the above statements are correct?\n"
+        ],
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All four"
+        ],
+        "answer": "a",
+        "explanation": {
+            "Statement 1": "Incorrect. The term 'special session' does not have an official definition in the Constitution or the rulebook of Lok Sabha.\n",
+            "Statement 2": "Incorrect. Special sessions are not exclusively tied to emergencies; they may be convened for other significant reasons as well.\n",
+            "Statement 3": "Incorrect. Revoking an emergency does not require a 'special session' but can be done through normal parliamentary procedures.\n",
+            "Statement 4": "Correct. There are no strict guidelines about when or how a special session should be convened.\n"
+        }
+    },
+    {
+        "question": [
+            "Consider the following statements:\n",
+            "1. The Competition Commission of India (CCI) is a statutory and quasi-judicial body.\n",
+            "2. It works under the Ministry of Consumer Affairs.\n",
+            "3. It was established under the Competition Act, 2002 for the administration, implementation, and enforcement of the Act, and was duly constituted in March 2009.\n",
+            "How many of the above statements is/are correct?\n"
+        ],
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) All three",
+            "(d) None"
+        ],
+        "answer": "b",
+        "explanation": {
+            "Statement 1": "Correct. The CCI is a statutory body under the Competition Act, 2002, and functions as a quasi-judicial authority.\n",
+            "Statement 2": "Incorrect. The CCI operates under the Ministry of Corporate Affairs, not the Ministry of Consumer Affairs.\n",
+            "Statement 3": "Correct. The CCI was constituted in March 2009 to fully implement the Competition Act, 2002.\n"
+        }
+    },
+    {
+        "question": [
+            "Potential factors contributing to democracy’s widespread adoption and superiority over other governance systems include:\n",
+            "1. It is founded on the concept of equal political rights.\n",
+            "2. It demands accountability from governing bodies.\n",
+            "3. It aims to eradicate disparities in income.\n",
+            "How many of the statements given above are correct?\n"
+        ],
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) All three",
+            "(d) None"
+        ],
+        "answer": "b",
+        "explanation": {
+            "Statement 1": "Correct. Democracy is based on equal political rights, ensuring universal suffrage and equal representation.\n",
+            "Statement 2": "Correct. Democracy enforces government accountability through elections, free press, and institutional oversight.\n",
+            "Statement 3": "Incorrect. Democracy focuses on political equality, not economic equality; economic disparities may still persist.\n"
+        }
+    },
+    {
+        "question": [
+            "With respect to Qualifications & Disqualifications for contesting elections to Parliament and State Legislature, consider the following statements:\n",
+            "1. A candidate must be at least 25 years old to be eligible to contest in Lok Sabha or State Legislative Assembly elections.\n",
+            "2. If a sitting member of Parliament or State Legislature is convicted of a crime with imprisonment for two years or more, they are immediately disqualified.\n",
+            "3. Non-resident Indians cannot contest elections to Parliament or State Legislatures even if they are registered as overseas electors.\n",
+            "Which of the statements given above are correct?\n"
+        ],
+        "options": [
+            "(a) 1 only",
+            "(b) 1 and 2 only",
+            "(c) 2 and 3 only",
+            "(d) 1, 2 and 3"
+        ],
+        "answer": "(b) 1 and 2 only",
+        "explanation": {
+            "Statement 1": "Correct. According to the Constitution of India, the eligibility criteria to contest an election to the Lok Sabha or a State Legislative Assembly require a candidate to be a minimum of 25 years old. Article 84 of the Constitution sets forth the qualifications for membership of Parliament, and Article 173 sets similar criteria for membership of a State Legislative Assembly.\n",
+            "Statement 2": "Correct. Under the Representation of the People Act, 1951, specifically Section 8, any sitting member of Parliament or a State Legislature who is convicted of a crime and sentenced to imprisonment of two years or more is subject to immediate disqualification from the legislature. This disqualification can be averted if, within 90 days, an appeal or revision is filed and the conviction or sentence is stayed by a higher court.\n",
+            "Statement 3": "Incorrect. NRIs can contest elections as they are citizens of India. NRIs should be holding their Indian passports and they should not have applied for or acquired citizenship of any other country. Additionally, they must satisfy the regional electoral officer as per the address provided in the passport to be registered to vote and, in turn, contest elections.\n"
+        }
+    },
+    {
+        "question": "How many of the below provisions in the Constitution of India have been amended in the 42nd Constitutional Amendment Act?\n\n1. Preamble\n2. Fundamental Rights\n3. Directive Principles of State Policy\n4. Fundamental Duties\n\nSelect the correct answer:",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All four"
+        ],
+        "answer": "(d) All four",
+        "explanation": "The 42nd Constitutional Amendment Act (1976) is often called the 'Mini Constitution' due to its extensive changes.\n- The **Preamble** was altered (adding 'Socialist,' 'Secular,' and 'Integrity').\n- Changes were made to **Fundamental Rights**, particularly **Article 31C**, which was expanded.\n- Several new **Directive Principles of State Policy** were added, including **Article 39A** (equal justice and free legal aid).\n- **Fundamental Duties** were introduced under **Article 51A**, based on the Swaran Singh Committee’s recommendations.\n"
+    },
+    {
+        "question": "Consider the following statements regarding the powers of Parliament in amending the Constitution:\n\n1. Parliament has the power to amend any part of the Constitution, including Fundamental Rights.\n2. A constitutional amendment bill requires the approval of at least half of the state legislatures if it seeks to amend provisions related to the federal structure.\n3. The President is bound to give assent to a constitutional amendment bill once it is passed by both Houses of Parliament.\n\nHow many of the above statements are correct?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) All three",
+            "(d) None"
+        ],
+        "answer": "(b) Only two",
+        "explanation": "- **Statement 1 is incorrect.** The Supreme Court’s **Kesavananda Bharati case (1973)** established that Parliament cannot amend the **Basic Structure** of the Constitution, even though it has broad amending powers under **Article 368**.\n- **Statement 2 is correct.** Constitutional amendments affecting **federal provisions** (like the judiciary, distribution of powers, or representation of states in Parliament) require ratification by at least **half of the state legislatures**.\n- **Statement 3 is correct.** Under **Article 368**, once both Houses of Parliament pass an amendment bill, the President **must** give his assent and does not have the power to send it back for reconsideration.\n"
+    },
+    {
+        "question": "Regarding Money Bills in India, consider the following statements:\n\n1. Financial Bills are designated as Money Bills only when certified by the Speaker.\n2. The Speaker’s determination of whether a financial bill qualifies as a Money Bill is subject to questioning.\n3. A Money Bill may be presented by either a minister or a private member.\n\nHow many of the statements given above are correct?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) All three",
+            "(d) None"
+        ],
+        "answer": "(a) Only one",
+        "explanation": "- **Statement 1 is correct.** Only those financial Bills which receive the Speaker’s certification are considered Money Bills.\n- **Statement 2 is incorrect.** The Speaker’s decision regarding whether a bill is a Money Bill is **final and cannot be challenged**.\n- **Statement 3 is incorrect.** A Money Bill **can only be introduced by a Minister**, not by a private member.\n"
+    },
+    {
+        "question": "Consider the following statements regarding parliamentary privileges in India:\n\n1. The President, despite being an integral part of Parliament, is not entitled to parliamentary privileges.\n2. Article 105(2) of the Constitution provides immunity to Members of Parliament from legal proceedings in any court for anything said or any vote given by them in Parliament or its committees.\n3. The Committee of Privileges can make final decisions on questions of breach of privilege referred to it by the Speaker/Chairman.\n\nHow many of the above statements are correct?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) All three",
+            "(d) None"
+        ],
+        "answer": "(b) Only two",
+        "explanation": "- **Statement 1 is correct.** The President, although part of Parliament, **does not enjoy parliamentary privileges**. Privileges are specifically for members of both Houses.\n- **Statement 2 is correct.** Article 105(2) provides **legal immunity** to MPs for statements made or votes cast in Parliament or its committees.\n- **Statement 3 is incorrect.** The **Committee of Privileges does not make final decisions**; it submits its report to the Speaker or Chairman, who takes the final decision.\n"
+    },
+    {
+        "question": "Consider the following statements:\n\n1. The Supreme Court holds the sole authority to resolve conflicts related to the elections of the President and Vice President under its appellate jurisdiction.\n2. Under Article 143 of the Constitution, the President is entitled to request advice from the Supreme Court, exercising its advisory jurisdiction.\n3. The Supreme Court, within its original jurisdiction, reviews cases that come directly from lower courts.\n\nHow many of the statements given above are correct?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) All three",
+            "(d) None"
+        ],
+        "answer": "(a) Only one",
+        "explanation": "- **Statement 1 is incorrect.** In appellate jurisdiction, the Supreme Court hears appeals from lower courts.\n- **Statement 2 is correct.** In advisory jurisdiction, the President has the power to seek an opinion from the Supreme Court under Article 143 of the Constitution.\n- **Statement 3 is incorrect.** In its extraordinary original jurisdiction, the Supreme Court has exclusive power to adjudicate disputes involving elections of the President and Vice President, those that involve states and the Centre, and cases involving the violation of fundamental rights.\n"
+    },
+    {
+        "question": "Consider the following statements:\n\n1. The police prepare a charge sheet following an order from the court to initiate the investigation.\n2. The deadline to submit a charge sheet is set at 60 days for cases that are to be tried by the Court of Sessions, and 90 days for those to be tried by lower courts.\n3. Only the victim or the victim’s family can file an FIR in the instance of a cognizable offence.\n4. A cognizable offence allows the police to detain a person without a warrant and to begin an investigation without requiring any court directive.\n\nHow many of the statements given above are correct?",
+        "options": {
+            "(a)": "Only one",
+            "(b)": "Only two",
+            "(c)": "Only three",
+            "(d)": "All four"
+        },
+        "answer": "(c) Only three",
+        "explanation": [
+            "Statement 1 is incorrect. A charge sheet is prepared after an investigation, initiated with an FIR, and does not require a court directive.",
+            "Statement 2 is correct. The deadline to submit a charge sheet is 60 days for offenses punishable with imprisonment of less than 10 years and 90 days for offenses punishable with imprisonment of 10 years or more.",
+            "Statement 3 is incorrect. Any individual can file an FIR for a cognizable offense, not just the victim or their family.",
+            "Statement 4 is correct. A cognizable offense allows the police to arrest without a warrant and begin an investigation without prior court approval."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding martial law in India:\n\n1. The concept of martial law has been borrowed from English common law and later defined through the 42nd Constitutional Amendment Act, 1976, in the Constitution.\n2. The declaration of martial law does not automatically result in the suspension of the writ of habeas corpus.\n3. Acts of indemnity made by Parliament during martial law can be challenged in the Supreme Court and High Courts only on the grounds of contravening Fundamental Rights.\n\nHow many of the statements given above are correct?",
+        "options": {
+            "(a)": "Only one",
+            "(b)": "Only two",
+            "(c)": "All three",
+            "(d)": "None"
+        },
+        "answer": "(a) Only one",
+        "explanation": [
+            "Statement 1 is incorrect. Martial law is based on English common law but is not explicitly defined in the Indian Constitution.",
+            "Statement 2 is correct. The Supreme Court has ruled that the declaration of martial law does not automatically suspend the writ of habeas corpus.",
+            "Statement 3 is incorrect. Acts of indemnity during martial law cannot be challenged in courts on the basis of Fundamental Rights violations, as they provide immunity to individuals acting under martial law."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding exit polls in India:\n\n1. An exit poll is conducted after people have voted and assesses the support for political parties and their candidates, while an opinion poll is conducted before the election to gather voters’ views on various election-related issues.\n2. Section 126A(1) of the Representation of the People Act, 1951, prohibits the conduct and publication of exit polls by any person during the period notified by the Election Commission.\n3. Prior permission from the Election Commission is mandatory to conduct exit polls.\n\nWhich of the above statements are correct?",
+        "options": {
+            "(a)": "Only one",
+            "(b)": "Only two",
+            "(c)": "All three",
+            "(d)": "None"
+        },
+        "answer": "(b) Only two",
+        "explanation": [
+            "Statement 1 is correct. Exit polls are conducted after voting, whereas opinion polls are conducted before elections.",
+            "Statement 2 is correct. Section 126A(1) of the Representation of the People Act, 1951, prohibits the conduct and publication of exit polls during the notified period.",
+            "Statement 3 is incorrect. There is no requirement for prior permission from the Election Commission to conduct exit polls."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding cooperative societies:\n\n1. Multi-state cooperatives are governed by the Act of Parliament.\n2. The RTI Act is applicable to cooperative societies.\n3. Urban cooperative banks are regulated by NABARD.\n\nHow many of the above statements are correct?",
+        "options": {
+            "(a)": "Only one",
+            "(b)": "Only two",
+            "(c)": "All three",
+            "(d)": "None"
+        },
+        "answer": "(a) Only one",
+        "explanation": [
+            "Statement 1 is correct. Multi-state cooperative societies are governed by the Multi-State Cooperative Societies Act, 2002, which is a central law.",
+            "Statement 2 is incorrect. The RTI Act does not apply to cooperative societies as per a recent Madras High Court ruling.",
+            "Statement 3 is incorrect. Urban cooperative banks are regulated by the Reserve Bank of India (RBI), not NABARD."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Central Administrative Tribunal (CAT):\n\n1. The tribunal facilitates the resolution of disputes and complaints concerning the recruitment and conditions of service of individuals appointed to public services.\n2. The CAT has the same jurisdiction as the Supreme Court in relation to the service matters of employees.\n\nWhich of the above statements is/are correct?",
+        "options": {
+            "(a)": "1 only",
+            "(b)": "2 only",
+            "(c)": "Both 1 and 2",
+            "(d)": "Neither 1 nor 2"
+        },
+        "answer": "(a) 1 only",
+        "explanation": [
+            "Statement 1 is correct. The Central Administrative Tribunal (CAT) was established under the Administrative Tribunals Act, 1985, to handle disputes related to recruitment and service conditions of government employees.",
+            "Statement 2 is incorrect. The CAT has jurisdiction similar to the High Courts, not the Supreme Court, in service matters. Appeals against its decisions go to the Supreme Court."
+        ]
+    },
+    {
+        "question": "Consider the following statements about parole as per the legal framework in India:",
+        "statements": [
+            "Parole refers to the temporary release of a prisoner for a specific period during which the prisoner is still considered to be serving their sentence, although not within the prison premises.",
+            "Regulations governing parole, including conditions and eligibility, are addressed under various state-specific acts and rules derived from or aligned with the Prisons Act of 1894.",
+            "Parole eligibility excludes individuals convicted of grave offenses such as multiple homicides or terrorist activities under statutes like the Unlawful Activities (Prevention) Act (UAPA)."
+        ],
+        "correct_options": "(c) All three",
+        "explanation": [
+            "Statement 1 is correct. Parole is a system of releasing a prisoner conditionally, requiring periodic reporting to authorities.",
+            "Statement 2 is correct. Parole regulations vary by state and are governed under the Prisons Act of 1894.",
+            "Statement 3 is correct. Prisoners convicted of serious offenses like terrorism under UAPA are not eligible for parole."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding parliamentary proceedings:",
+        "statements": [
+            "Questions during the Question Hour can only be addressed to ministers, and private members cannot be asked questions during this session.",
+            "The Zero Hour is a statutory provision which was later added into the Rules of Procedure of Parliament.",
+            "MPs who submit starred questions are allowed to ask supplementary questions, while there is no such provision for MPs who submit unstarred questions.",
+            "All resolutions are substantive motions, while all motions may not be substantive."
+        ],
+        "correct_options": "(b) Only two",
+        "explanation": [
+            "Statement 1 is incorrect. Private members can be asked questions in specific cases.",
+            "Statement 2 is incorrect. Zero Hour is not a statutory provision; it is an informal parliamentary practice.",
+            "Statement 3 is correct. Starred questions allow supplementary questions, while unstarred questions do not.",
+            "Statement 4 is correct. All resolutions are substantive, but motions can be of different types."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Parliamentary Committees in India:",
+        "statements": [
+            "Joint Parliamentary Committees are permanent bodies, while Select Committees are temporary and are usually chaired by ruling party MPs.",
+            "Departmentally Related Standing Committees (DRSCs) are temporary committees that examine various reports of the ministries/departments and other related matters.",
+            "Committee meetings are independent of Parliament’s calendar."
+        ],
+        "correct_options": "(a) Only one",
+        "explanation": [
+            "Statement 1 is incorrect. Joint Parliamentary Committees (JPCs) are not permanent; they are formed for specific purposes.",
+            "Statement 2 is incorrect. DRSCs are permanent committees, not temporary.",
+            "Statement 3 is correct. Committee meetings are held independently of Parliament’s calendar."
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "statements": [
+            "The office of ‘whip’ is established by the Rules of the House of Lok Sabha.",
+            "The Chief Whip of the government party in the Lok Sabha is the Minister of Parliamentary Affairs and is directly responsible to the Leader of the House.",
+            "The Chief Whip is assisted by one or two Deputy Ministers and Ministers of State."
+        ],
+        "correct_options": "(d) None",
+        "explanation": [
+            "Statement 1 is incorrect. The whip is not mentioned in the Constitution or the Rules of Procedure of the Lok Sabha.",
+            "Statement 2 is incorrect. The Chief Whip is not the Minister of Parliamentary Affairs but is appointed by the ruling party.",
+            "Statement 3 is incorrect. The Chief Whip is assisted by party whips, not ministers."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Scheduled Areas:",
+        "statements": [
+            "The President is empowered to declare an area as a Scheduled Area.",
+            "The President is empowered to make regulations for the peace and good government of Scheduled Areas after consulting the Tribal Advisory Council."
+        ],
+        "correct_options": "(a) 1 only",
+        "explanation": [
+            "Statement 1 is correct. The President has the authority to declare Scheduled Areas.",
+            "Statement 2 is incorrect. It is the Governor, not the President, who makes regulations for Scheduled Areas."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Pitt’s India Act of 1784:\n\n1. The Act established a Board of Commissioners consisting of the Chancellor of the Exchequer, the Secretary of State, and Privy Councillors nominated by the King.\n2. The Act stated that the Presidencies of Madras and Bombay were independent of the Presidency of Bengal in matters of war and peace.\n3. The Act mandated all civil and military officers of the East India Company to disclose their property in India and Britain within two months of their joining.\n\nHow many of the above statements are correct?",
+        "options": {
+            "(a)": "Only one",
+            "(b)": "Only two",
+            "(c)": "All three",
+            "(d)": "None"
+        },
+        "answer": "(b) Only two",
+        "explanation": [
+            "Statement 1 is correct. Pitt’s India Act established a Board of Commissioners.",
+            "Statement 2 is incorrect. Madras and Bombay were subordinate to Bengal in matters of war and peace.",
+            "Statement 3 is correct. The Act required officers to disclose their property."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding quasi-judicial bodies in India:\n\n1. Quasi-judicial bodies primarily function in administrative and regulatory domains rather than purely judicial ones.\n2. The judgments of quasi-judicial bodies are binding on the government but can be challenged in courts of law.\n3. The Central Information Commission (CIC) and the National Human Rights Commission (NHRC) are examples of quasi-judicial bodies.\n\nHow many of the above statements are correct?",
+        "options": {
+            "(a)": "Only one",
+            "(b)": "Only two",
+            "(c)": "All three",
+            "(d)": "None"
+        },
+        "answer": "(c) All three",
+        "explanation": [
+            "Statement 1 is correct. Quasi-judicial bodies operate in regulatory areas, including taxation, consumer protection, and human rights enforcement.",
+            "Statement 2 is correct. Their decisions are binding but subject to review by higher courts.",
+            "Statement 3 is correct. CIC and NHRC function as quasi-judicial bodies, resolving disputes related to their respective domains."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the role of the Election Commission of India (ECI):\n\n1. The ECI is responsible for conducting elections for the Lok Sabha, Rajya Sabha, and State Legislative Assemblies.\n2. It has the authority to determine the election schedule for panchayat elections in all states.\n3. It has the power to disqualify candidates for electoral malpractices under the Representation of the People Act, 1951.\n\nWhich of the statements given above is/are correct?",
+        "options": {
+            "(a)": "1 only",
+            "(b)": "1 and 3 only",
+            "(c)": "2 and 3 only",
+            "(d)": "1, 2, and 3"
+        },
+        "answer": "(b) 1 and 3 only",
+        "explanation": [
+            "Statement 1 is correct. The ECI oversees elections to the Lok Sabha, Rajya Sabha, and State Legislative Assemblies.",
+            "Statement 2 is incorrect. Panchayat elections are conducted by State Election Commissions, not the ECI.",
+            "Statement 3 is correct. The ECI can disqualify candidates for electoral malpractices under the Representation of the People Act, 1951."
+        ]
+    },
+    {
+        "question": "Consider the following statements:\n\n1. The enforcement of Directive Principles is not obligatory, and their implementation cannot be mandated by judicial means.\n2. Matters pertaining to personal laws are categorized under the Union List in the Seventh Schedule of the Constitution.\n\nWhich of the statements given above is/are correct?",
+        "options": {
+            "(a)": "1 only",
+            "(b)": "2 only",
+            "(c)": "Both 1 and 2",
+            "(d)": "None"
+        },
+        "answer": "(a) 1 only",
+        "explanation": [
+            "Statement 1 is correct. Directive Principles of State Policy (DPSPs) are non-justiciable, meaning courts cannot enforce their implementation.",
+            "Statement 2 is incorrect. Personal laws (e.g., marriage, divorce, inheritance, etc.) fall under the Concurrent List, allowing both the Centre and States to legislate on these matters."
+        ]
+    },
+    {
+        "question": "Consider the accuracy of the following assertions regarding Article 22:\n\n1. The initial segment of Article 22 is concerned with conventional legal situations, hence it is relevant to arrests made for civil matters and non-payment of income tax.\n2. According to the 44th Amendment Act of 1978, an individual could be held under preventive detention for a period exceeding three months without requiring a review by an advisory board.\n3. When detaining someone under a law of preventive detention, the detaining authority is permitted to withhold certain information about the reasons for the arrest if revealing such information is deemed detrimental to the public interest.\n4. The use of preventive detention is restricted solely to the objective of averting public disturbances.\n\nHow many of the statements given above are correct?",
+        "options": {
+            "(a)": "Only one",
+            "(b)": "Only two",
+            "(c)": "Only three",
+            "(d)": "All four"
+        },
+        "answer": "(b) Only two",
+        "explanation": [
+            "Statement 1 is incorrect. Article 22 deals with protective rights related to preventive detention and does not apply to civil matters.",
+            "Statement 2 is incorrect. The 44th Amendment Act of 1978 restricted preventive detention beyond three months unless reviewed by an advisory board.",
+            "Statement 3 is correct. Under Article 22(6), authorities can withhold information in preventive detention cases if disclosure affects public interest.",
+            "Statement 4 is incorrect. Preventive detention is not limited to public disturbances; it can be used for reasons related to national security, defense, and foreign affairs."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Pitt’s India Act of 1784:\n1. The Act established a Board of Commissioners consisting of the Chancellor of the Exchequer, the Secretary of State, and Privy Councillors nominated by the King.\n2. The Act stated that the Presidencies of Madras and Bombay were independent of the Presidency of Bengal in matters of war and peace.\n3. The Act mandated all civil and military officers of the East India Company to disclose their property in India and Britain within two months of their joining.\nHow many of the above statements are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": "Statement 1 is correct. Pitt’s India Act established a Board of Commissioners.\nStatement 2 is incorrect. Madras and Bombay were subordinate to Bengal in matters of war and peace.\nStatement 3 is correct. The Act required officers to disclose their property."
+    },
+    {
+        "question": "Consider the following statements regarding quasi-judicial bodies in India:\n1. Quasi-judicial bodies primarily function in administrative and regulatory domains rather than purely judicial ones.\n2. The judgments of quasi-judicial bodies are binding on the government but can be challenged in courts of law.\n3. The Central Information Commission (CIC) and the National Human Rights Commission (NHRC) are examples of quasi-judicial bodies.\nHow many of the above statements are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "c",
+        "explanation": "Statement 1 is correct. Quasi-judicial bodies operate in regulatory areas, including taxation, consumer protection, and human rights enforcement.\nStatement 2 is correct. Their decisions are binding but subject to review by higher courts.\nStatement 3 is correct. CIC and NHRC function as quasi-judicial bodies, resolving disputes related to their respective domains."
+    },
+    {
+        "question": "Consider the following statements regarding the role of the Election Commission of India (ECI):\n1. The ECI is responsible for conducting elections for the Lok Sabha, Rajya Sabha, and State Legislative Assemblies.\n2. It has the authority to determine the election schedule for panchayat elections in all states.\n3. It has the power to disqualify candidates for electoral malpractices under the Representation of the People Act, 1951.\nWhich of the statements given above is/are correct?",
+        "options": {
+            "a": "1 only",
+            "b": "1 and 3 only",
+            "c": "2 and 3 only",
+            "d": "1, 2, and 3"
+        },
+        "answer": "b",
+        "explanation": "Statement 1 is correct. The ECI oversees elections to the Lok Sabha, Rajya Sabha, and State Legislative Assemblies.\nStatement 2 is incorrect. Panchayat elections are conducted by State Election Commissions, not the ECI.\nStatement 3 is correct. The ECI can disqualify candidates for electoral malpractices under the Representation of the People Act, 1951."
+    },
+    {
+        "question": "Which of the following does not fall under the purview or implications of Article 29 of the Indian Constitution?",
+        "options": {
+            "a": "It grants protection to minorities for preserving their language, script, and culture.",
+            "b": "It allows for the identification of minorities on a national as well as a regional basis.",
+            "c": "It excludes religious minorities from claiming this as a fundamental right.",
+            "d": "It authorizes state governments to officially recognize minorities within their territories."
+        },
+        "answer": "c",
+        "explanation": "Statement (a) is correct. Article 29(1) explicitly provides protection to minorities to preserve their language, script, or culture.\nStatement (b) is correct. The Supreme Court has upheld that minorities can be identified both at the national and state levels.\nStatement (c) is incorrect. Article 29 applies to all minorities, including religious ones.\nStatement (d) is correct. State governments play a role in recognizing minorities within their jurisdiction."
+    },
+    {
+        "question": "Which of the following statements is the most appropriate about delegated legislation?",
+        "options": {
+            "a": "It refers to the process where Parliament amends existing laws through executive orders.",
+            "b": "It is the transfer of legislative powers by the legislature to the executive or subordinate authorities to frame detailed rules or regulations.",
+            "c": "It is the power granted to the judiciary to review and annul unconstitutional laws enacted by the legislature.",
+            "d": "It allows the executive to bypass legislative approval while framing policies, without any oversight or accountability."
+        },
+        "answer": "b",
+        "explanation": "Delegated legislation refers to the power of the executive to create rules or regulations within the framework of a law passed by the legislature."
+    },
+    {
+        "question": "With reference to Parliamentary Legislation in the State List, consider the following statements:\n\n1. When the Rajya Sabha passes a resolution to empower Parliament to legislate on a subject in the State List, the resolution remains in force for a maximum period of one year.\n2. The law made by Parliament is applicable to all neighboring territories of the concerned states.\n3. During President’s Rule, a law made by Parliament with respect to any matter in the State List in relation to that state becomes inoperative once President’s Rule ends.\n\nHow many of the above statements are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": "Statement 1 is correct. The resolution is valid for one year. Statement 2 is incorrect. Parliament’s law applies only to the specific state concerned. Statement 3 is correct. Laws passed during President’s Rule cease once normal governance is restored."
+    },
+    {
+        "question": "Consider the following statements regarding the powers of Parliament:\n\n1. Parliament has exclusive authority to make laws on matters in the Union List.\n2. Parliament can legislate on subjects in the State List during an Emergency under Article 356.\n3. If a law made by Parliament conflicts with a state law on a Concurrent List subject, the state law prevails.\n\nHow many of the above statements are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": "Statement 1 is correct. Parliament has exclusive power over the Union List. Statement 2 is correct. During an Emergency, Parliament can legislate on State List subjects. Statement 3 is incorrect. The central law prevails over a conflicting state law on Concurrent List subjects."
+    },
+    {
+        "question": "Consider the following statements regarding the office of the Speaker of Lok Sabha:\n\n1. The Speaker is elected by a simple majority in the Lok Sabha.\n2. The Speaker continues in office even after the dissolution of the Lok Sabha until a new Speaker is elected.\n3. The Speaker is subordinate to the President.\n\nWhich of the above statements are correct?",
+        "options": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "All three"
+        },
+        "answer": "a",
+        "explanation": "Statement 1 is correct. The Speaker is elected by a simple majority. Statement 2 is correct. The Speaker remains in office until the next Lok Sabha elects a new one. Statement 3 is incorrect. The Speaker is not subordinate to the President."
+    },
+    {
+        "question": "With reference to Protection in Respect of Conviction for Offences under Article 20 of the Constitution of India, consider the following statements:\n\n1. Protection against self-incrimination extends to both civil and criminal proceedings.\n2. Protection against double jeopardy is available in both proceedings before a court of law and proceedings before departmental authorities.\n\nWhich of the above statements is/are correct?",
+        "options": {
+            "a": "1 only",
+            "b": "2 only",
+            "c": "Both 1 and 2",
+            "d": "Neither 1 nor 2"
+        },
+        "answer": "d",
+        "explanation": "Statement 1 is incorrect. Protection against self-incrimination under Article 20(3) applies only to criminal proceedings, not civil cases. This was upheld in M.P. Sharma v. Satish Chandra. Statement 2 is incorrect. Protection against double jeopardy under Article 20(2) applies only to judicial proceedings and does not extend to departmental or administrative proceedings, as clarified in S.A. Venkataraman v. Union of India."
+    },
+    {
+        "question": "Consider the following statements regarding Parliamentary Privileges in India:\n\n1. The President, despite being an integral part of Parliament, is not entitled to parliamentary privileges.\n2. Article 105(2) of the Constitution provides immunity to Members of Parliament from legal proceedings in any court for anything said or any vote given by them in Parliament or its committees.\n3. The Committee of Privileges can make final decisions on questions of breach of privilege referred to it by the Speaker/Chairman.\n\nHow many of the above statements are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": "Statement 1 is correct. The President, being part of Parliament, does not enjoy parliamentary privileges. Statement 2 is correct. Article 105(2) grants immunity to MPs for their speech and votes in Parliament. Statement 3 is incorrect. The Committee of Privileges does not make final decisions; its reports are submitted to the Speaker/Chairman, who then takes the final decision."
+    },
+    {
+        "question": "Which of the following statements depicts the most appropriate meaning of democracy?",
+        "options": {
+            "a": "Democracies have greater success than other forms of government in setting up regular and free elections.",
+            "b": "Most democracies do not fall short of elections that provide a fair chance to everyone and in subjecting every decision to public debate.",
+            "c": "Democratic governments have a very good record when it comes to sharing information with citizens.",
+            "d": "Democracies are free of corruption."
+        },
+        "answer": "a",
+        "explanation": [
+            "Option (a) is correct. One of the primary features of democracy is conducting regular, free, and fair elections to ensure legitimacy and accountability of governments.",
+            "Option (b) is incorrect. While public debate and fair elections are part of democracy, this statement is too idealistic, as practical democracies often fall short in fully achieving these ideals.",
+            "Option (c) is incorrect. While democracies strive for transparency, they do not always excel in sharing information.",
+            "Option (d) is incorrect. Corruption can exist in democratic systems, though mechanisms like elections and judicial oversight aim to minimize it."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Original Jurisdiction of the Supreme Court:",
+        "statements": [
+            "Any suit brought before the Supreme Court by a private citizen against the Centre or a state falls under its exclusive original jurisdiction.",
+            "Electoral disputes arising from Lok Sabha elections fall under the Original Jurisdiction of the Supreme Court, allowing aggrieved candidates to directly approach the Court.",
+            "Disputes between the Centre and Union Territories are encompassed within the Original Jurisdiction of the Supreme Court.",
+            "Its original jurisdiction does not extend to disputes arising out of treaties, agreements, or covenants that are still in operation."
+        ],
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "Only three",
+            "d": "All four"
+        },
+        "answer": "a",
+        "explanation": [
+            "Statement 1 is incorrect. A private citizen cannot bring suits against the Centre or states under Article 131.",
+            "Statement 2 is incorrect. Electoral disputes do not fall under the Original Jurisdiction of the Supreme Court; candidates must first approach High Courts.",
+            "Statement 3 is incorrect. Disputes between the Centre and Union Territories are not included under the Supreme Court’s Original Jurisdiction.",
+            "Statement 4 is correct. Article 131 does not cover treaty-related disputes."
+        ]
+    },
+    {
+        "question": "Consider the following statements about the Arbitration Council of India (ACI):",
+        "statements": [
+            "The ACI is an independent statutory body created for grading arbitral institutions and accreditation of arbitrators.",
+            "The principal objective of the ACI is to promote the resolution of India’s international disputes through arbitration, as articulated in the Directive Principles of State Policy.",
+            "It is headed by a former Judge of the Supreme Court or a Chief Justice or Judge of a High Court, or an eminent individual possessing specialized knowledge in the facilitation of arbitration proceedings."
+        ],
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. The ACI is a statutory body under the Arbitration and Conciliation (Amendment) Act, 2019.",
+            "Statement 2 is incorrect. The ACI’s primary role is grading and accreditation, not international dispute resolution under DPSPs.",
+            "Statement 3 is correct. The ACI is headed by a Supreme Court/High Court judge or an eminent arbitration expert."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the time constraints for the consultation and appointment of High Court judges in India:",
+        "statements": [
+            "According to the ‘Second Judges Case,’ the consultation process for appointing High Court judges must conclude within six weeks.",
+            "Failure by any constitutional functionary to provide consent within the stipulated six-week period results in automatic rejection.",
+            "The Collegium System of appointment and transfer of judges has evolved through Acts of Parliament as per the provisions under the Constitution."
+        ],
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "a",
+        "explanation": [
+            "Statement 1 is correct. The Second Judges Case mandates a six-week consultation period for High Court appointments.",
+            "Statement 2 is incorrect. Failure to provide consent does not result in automatic rejection; silence may be considered deemed consent.",
+            "Statement 3 is incorrect. The Collegium System evolved through Supreme Court judgments, not through Acts of Parliament."
+        ]
+    },
+    {
+        "question": "Consider the following characteristics:",
+        "statements": [
+            "Hilly and difficult terrain",
+            "Low population density and/or sizeable share of the tribal population",
+            "Strategic location along international borders",
+            "Economic and infrastructural backwardness",
+            "Non-viable nature of state finances"
+        ],
+        "options": {
+            "a": "Only two",
+            "b": "Only three",
+            "c": "Only four",
+            "d": "All five"
+        },
+        "answer": "d",
+        "explanation": [
+            "The Special Category Status (SCS) was introduced in 1969 on the recommendation of the Fifth Finance Commission (FC).",
+            "All five factors are used for determining SCS:",
+            "1. Hilly and difficult terrain",
+            "2. Low population density/significant tribal population",
+            "3. Strategic location along international borders",
+            "4. Economic and infrastructural backwardness",
+            "5. Non-viable state finances"
+        ]
+    },
+    {
+        "question": "The following provisions of the Constitution came into force on November 26, 1949:",
+        "options": {
+            "a": "2, 4, and 5 only",
+            "b": "1, 2, 4, and 6 only",
+            "c": "1, 3, and 5 only",
+            "d": "1, 3, and 6 only"
+        },
+        "answer": "c",
+        "explanation": [
+            "Citizenship (Articles 5-11) came into effect on November 26, 1949.",
+            "Elections (Articles 324-329) were enforced immediately.",
+            "Provisional Parliament was established to ensure legislative functioning.",
+            "Fundamental Rights and Directive Principles came into force on January 26, 1950.",
+            "Fundamental Duties were added via the 42nd Amendment Act, 1976."
+        ]
+    },
+    {
+        "question": "Which of the following matters fall under the jurisdiction of Lok Adalat?",
+        "options": {
+            "a": "1, 2, 3, 5, and 6 only",
+            "b": "1, 3, 4, 5, and 6 only",
+            "c": "1, 2, 3, 4, and 5 only",
+            "d": "1, 2, 3, 4, and 6 only"
+        },
+        "answer": "a",
+        "explanation": [
+            "Correct Jurisdiction of Lok Adalat",
+            "Matrimonial disputes (except criminal offenses like cruelty).",
+            "Pension cases related to retirement benefits.",
+            "Bank recovery cases for small loan recoveries.",
+            "Labour disputes regarding compensation and settlements.",
+            "Housing finance cases involving home loan settlements.",
+            "Non-compoundable criminal cases are excluded as they require judicial trial."
+        ]
+    },
+    {
+        "question": "Consider the following statements about Rajya Sabha elections:",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": [
+            "correct: Rajya Sabha members are indirectly elected by MLAs using proportional representation via the single transferable vote system.",
+            "In 2003, the Representation of the People Act, 1951, introduced open ballot voting for Rajya Sabha elections.",
+            "incorrect: Since 2003, a person does not need to be a registered voter in the state from which they contest for Rajya Sabha."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Cabinet and related ministerial positions in India:",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "Only three",
+            "d": "All four"
+        },
+        "answer": "b",
+        "explanation": [
+            "correct: Ministers of State attend Cabinet meetings only when invited.",
+            "The National Crisis Management Committee (NCMC) is headed by the Cabinet Secretary.",
+            "incorrect: The term 'Cabinet' was added to Article 352 in 1978 via the 44th Constitutional Amendment Act.",
+            "Deputy Ministers do not have independent charge; they assist Cabinet Ministers."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Anti-Defection Law in India:",
+        "options": {
+            "a": "1 only",
+            "b": "2 only",
+            "c": "Both 1 and 2",
+            "d": "Neither 1 nor 2"
+        },
+        "answer": "b",
+        "explanation": [
+            "Under the Tenth Schedule (Anti-Defection Law), the Speaker of the Lok Sabha and the Chairman of the Rajya Sabha decide disqualification.",
+            "Voluntarily giving up membership is not limited to formal resignation. The Supreme Court (Kihoto Hollohan v. Zachillhu, 1992) ruled that actions, speeches, or conduct indicating allegiance to another party can also lead to disqualification."
+        ]
+    },
+    {
+        "question": "With respect to Lokpal and Lokayukta, consider the following statements:\n\n1. The structure of the Lokayukta is the same in all the states.\n2. The judiciary is within the purview of Lokpal/Lokayukta in India.\n3. There is no political involvement in the appointment of Lokpal.\n\nHow many of the statements given above are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "d",
+        "explanation": [
+            "Statement 1 is incorrect. The structure and powers of the Lokayukta vary from state to state since each state legislature establishes its own Lokayukta.",
+            "Statement 2 is incorrect. The judiciary is excluded from the purview of the Lokpal and Lokayukta Act, 2013. Judges are not subject to Lokpal/Lokayukta scrutiny.",
+            "Statement 3 is incorrect. The appointment process of Lokpal involves political figures such as the Prime Minister, Speaker of the Lok Sabha, Leader of the Opposition, Chief Justice of India (or a nominated judge), and an eminent jurist."
+        ]
+    },
+    {
+        "question": "Which of the following statements is/are correct regarding the National Human Rights Commission (NHRC)?\n\n1. The Chairman should be a retired Chief Justice of India.\n2. Members of NHRC are appointed by the President.\n3. The Protection of Human Rights Act, 1993 does not categorically empower the NHRC to act against private parties in cases of human rights violations.\n4. NHRC can intervene in any proceeding involving any allegation of human rights violations pending before a court without the approval of such a court.\n\nSelect the correct answer using the codes given below:",
+        "options": {
+            "a": "1, 2, and 3 only",
+            "b": "2 and 3 only",
+            "c": "1, 2, and 4 only",
+            "d": "2 only"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is incorrect. As per the Protection of Human Rights (Amendment) Act, 2019, the Chairperson of NHRC can be a former Chief Justice of India or a Supreme Court Judge.",
+            "Statement 2 is correct. NHRC members are appointed by the President based on a committee recommendation.",
+            "Statement 3 is correct. NHRC primarily deals with violations by public authorities and does not have direct jurisdiction over private parties unless state failure to prevent violations is evident.",
+            "Statement 4 is incorrect. NHRC cannot intervene in court proceedings unless specifically approved by the court."
+        ]
+    },
+    {
+        "question": "Regarding judicial review, consider the following statements:\n\n1. It assesses the legitimacy of government actions against the constitutional framework.\n2. It can secure the Constitution from any undue encroachment by the government.\n3. Judicial review is not statutory in nature.\n4. In judicial review, the court examines the rulings made by inferior courts to determine whether such a decision was correct or not.\n\nHow many of the statements given above are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "Only three",
+            "d": "All four"
+        },
+        "answer": "c",
+        "explanation": [
+            "Statement 1 is correct. Judicial review ensures that laws and executive actions comply with the Constitution.",
+            "Statement 2 is correct. It prevents government overreach and protects fundamental rights.",
+            "Statement 3 is correct. Judicial review is a constitutional principle derived from Articles 13, 32, and 226, not a statutory provision.",
+            "Statement 4 is incorrect. Judicial review does not involve reviewing lower court decisions; that falls under appellate jurisdiction."
+        ]
+    },
+    {
+        "question": "With reference to citizenship of India, consider the following statements:\n\n1. The Constitution of India empowers the Parliament to enact a law to provide for citizenship-related matters and any other matter relating to citizenship.\n2. A person’s citizenship can be terminated by the Central government if they have shown disloyalty to the Constitution of India.\n3. Every naturalized citizen must take an oath of allegiance to the Constitution of India.\n\nSelect the correct answer using the code given below:",
+        "options": {
+            "a": "3 only",
+            "b": "1 and 2 only",
+            "c": "1 and 3 only",
+            "d": "1, 2, and 3"
+        },
+        "answer": "d",
+        "explanation": [
+            "Statement 1 is correct. Article 11 empowers Parliament to legislate on citizenship, leading to the Citizenship Act, 1955.",
+            "Statement 2 is correct. Section 10 of the Citizenship Act, 1955 allows termination of citizenship if the individual acts against India's sovereignty and integrity.",
+            "Statement 3 is correct. Naturalized citizens must take an oath of allegiance before obtaining Indian citizenship."
+        ]
+    },
+    {
+        "question": "Consider the following:\n\n1. The Indian Penal Code, 1861, was enacted by the British colonial authorities.\n2. The Code of Criminal Procedure (CrPC) was initially formulated in 1882 and subsequently amended in 1898. Further amendments were recommended in accordance with the 41st Law Commission report in 1973.\n3. The Code of Criminal Procedure (CrPC) includes provisions that define the term 'bail' and delineates between offenses classified as 'bailable' and 'non-bailable'.\n\nHow many of the above statements are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. The Indian Penal Code (IPC) was drafted by the First Law Commission under Lord Macaulay and enacted in 1861.",
+            "Statement 2 is correct. The CrPC was first codified in 1882, revised in 1898, and updated in 1973 based on the 41st Law Commission report.",
+            "Statement 3 is incorrect. While the CrPC classifies offenses as bailable and non-bailable (Sections 436-439), it does not explicitly define 'bail'."
+        ]
+    },
+    {
+        "question": "Which one of the following is a human right as well as a Fundamental Right under the Constitution of India?",
+        "options": {
+            "a": "Right to Information",
+            "b": "Right to Education",
+            "c": "Right to Work",
+            "d": "Right to Housing"
+        },
+        "answer": "b",
+        "explanation": [
+            "Right to Education is both a Fundamental Right (Article 21A) and a human right recognized under international treaties such as Article 26 of the Universal Declaration of Human Rights and the Convention on the Rights of the Child.",
+            "Right to Information is a statutory right under the RTI Act, 2005, not explicitly a Fundamental Right.",
+            "Right to Work is a Directive Principle of State Policy (Article 41), not a Fundamental Right.",
+            "Right to Housing is also a Directive Principle of State Policy (Article 43)."
+        ]
+    },
+    {
+        "question": "Consider the following statements with reference to the passing of bills:\n\n1. A Bill pending in the House of the People (Lok Sabha) but not taken up by the House of States (Rajya Sabha) does not lapse on the dissolution of the House of the People.\n2. A Bill pending in the House of States (Rajya Sabha) but not taken up by the House of the People (Lok Sabha) lapses on the dissolution of the House of the People.\n\nWhich of the statements given above is/are incorrect?",
+        "options": {
+            "a": "1 only",
+            "b": "2 only",
+            "c": "Both 1 and 2",
+            "d": "Neither 1 nor 2"
+        },
+        "answer": "c",
+        "explanation": [
+            "Statement 1 is incorrect. As per Article 107(4) of the Constitution, a bill pending in the Lok Sabha lapses on its dissolution, except when it has been passed by one House and is pending in the other.",
+            "Statement 2 is incorrect. A bill pending in the Rajya Sabha but not yet passed by the Lok Sabha does not lapse when the Lok Sabha is dissolved. The new Lok Sabha can take it up."
+        ]
+    },
+    {
+        "question": "Which of the following principles was incorporated into the Directive Principles of State Policy (DPSP) by the 42nd Constitutional Amendment?\n\n1. Ensuring men and women receive equal remuneration for the same work.\n2. Involving workers in the industrial management process.\n3. Guaranteeing the right to employment, education, and public aid.\n4. Providing workers with a decent living wage and humane working conditions.\n\nSelect the correct answer using the code given below:",
+        "options": {
+            "a": "2 only",
+            "b": "2 and 4 only",
+            "c": "1, 3, and 4 only",
+            "d": "2, 3, and 4 only"
+        },
+        "answer": "a",
+        "explanation": [
+            "Statement 1 is incorrect. Article 39(d), ensuring equal pay for equal work, was already part of the original Constitution and not added by the 42nd Amendment.",
+            "Statement 2 is correct. Article 43A was added by the 42nd Amendment, promoting workers' participation in industrial management.",
+            "Statement 3 is incorrect. The right to employment, education, and public aid is part of Article 41, which was already in the original Constitution.",
+            "Statement 4 is incorrect. Article 43, ensuring a living wage and humane working conditions, was already present in the original Constitution."
+        ]
+    },
+    {
+        "question": "With reference to the Prevention of Sexual Harassment (PoSH) Act, 2013, consider the following statements:\n\n1. The PoSH Act mandates both public and private workplaces to establish an Internal Complaints Committee (ICC) to hear allegations of sexual harassment.\n2. The meaning of 'workplace' in the PoSH Act is not defined.\n\nWhich of the statements given above is/are incorrect?",
+        "options": {
+            "a": "1 only",
+            "b": "2 only",
+            "c": "Both 1 and 2",
+            "d": "Neither 1 nor 2"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. The PoSH Act mandates every organization with 10 or more employees to establish an Internal Complaints Committee (ICC).",
+            "Statement 2 is incorrect. The PoSH Act provides a broad definition of 'workplace', covering traditional offices, transportation, off-site locations, and virtual workspaces."
+        ]
+    },
+    {
+        "question": "Change/amendment in which of the following is/are outside the scope of Article 368?\n\n1. Delimitation of Constituencies\n2. Sixth Schedule\n3. Representation of states in Parliament\n4. Article 368 itself\n5. Elections to Parliament and state legislature\n6. Number of puisne judges in the Supreme Court\n\nSelect the correct answer using the code given below:",
+        "options": {
+            "a": "1, 2, 4, and 5 only",
+            "b": "1, 2, 5, and 6 only",
+            "c": "1, 3, 5, and 6 only",
+            "d": "1, 3, 4, and 5 only"
+        },
+        "answer": "b",
+        "explanation": [
+            "Delimitation of Constituencies: Outside Article 368 – changes can be made via ordinary legislation (Delimitation Commission Act).",
+            "Sixth Schedule: Outside Article 368 – can be amended by ordinary legislation under Article 4.",
+            "Representation of States in Parliament: Requires Article 368 amendment.",
+            "Article 368 itself: Requires Article 368 amendment.",
+            "Elections to Parliament and State Legislature: Outside Article 368, governed by the Representation of the People Act, 1950 & 1951.",
+            "Number of Puisne Judges in the Supreme Court: Outside Article 368, modified through ordinary legislation (e.g., Supreme Court (Number of Judges) Act, 1956)."
+        ]
+    },
+    {
+        "question": "Consider the following statements:\n\n1. The Parliament (Prevention of Disqualification) Act, 1959 exempts several posts from disqualification on the grounds of ‘Office of Profit’. \n2. The above-mentioned Act has been amended five times to reduce the list. \n3. The term ‘Office of Profit’ is well-defined in the Constitution of India.\n\nHow many of the statements given above are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "a",
+        "explanation": [
+            "Statement 1 is correct. The Parliament (Prevention of Disqualification) Act, 1959, exempts several posts from disqualification under ‘Office of Profit’ provisions.",
+            "Statement 2 is incorrect. The Act has been amended five times (1960, 1977, 1993, 2006, and 2013), but these amendments expanded the list of exempted posts instead of reducing it.",
+            "Statement 3 is incorrect. The term 'Office of Profit' is not well-defined in the Indian Constitution or the Representation of the People Act, 1951. It has been interpreted mainly through judicial decisions."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the reorganization of states in India:\n\n1. A bill for the internal readjustment of state boundaries can only be introduced in Parliament with prior recommendation of the President. \n2. The territorial integrity of states in India is **not** guaranteed by the Constitution. \n3. The formation of new states and alteration of existing state boundaries requires a special majority in both Houses of Parliament.\n\nSelect the correct answer using the code given below:",
+        "options": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2, and 3"
+        },
+        "answer": "a",
+        "explanation": [
+            "Statement 1 is correct. Article 3 of the Constitution requires a bill for the formation of new states, or alteration of state boundaries, to be introduced in Parliament only with the prior recommendation of the President.",
+            "Statement 2 is correct. The Constitution does not guarantee territorial integrity to states, meaning Parliament has the authority to alter state boundaries without state consent.",
+            "Statement 3 is incorrect. A bill under Article 3 requires only a simple majority in Parliament, not a special majority."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Ordinances:\n\n1. The President has the authority to promulgate Ordinances during the recess of Parliament under Article 123. \n2. An Ordinance ceases to be effective if both Houses of Parliament pass resolutions disapproving it or if it is not approved within six weeks of reassembly. \n3. An Ordinance has the same force and effect as an Act of Parliament.\n\nHow many of the above statements are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "c",
+        "explanation": [
+            "Statement 1 is correct. The President can issue an Ordinance under Article 123 if both Houses are not in session and immediate legislative action is required.",
+            "Statement 2 is correct. An Ordinance must be approved within six weeks after Parliament reassembles; otherwise, it lapses.",
+            "Statement 3 is correct. An Ordinance has the same force and effect as an Act of Parliament but is subject to judicial review and cannot contravene fundamental rights."
+        ]
+    },
+    {
+        "question": "Consider the following statements:\n\n1. In India, the constitutional remedy under **Article 32** is available only for enforcing **Fundamental Rights**. \n2. The Supreme Court has **exclusive jurisdiction** for the enforcement of Fundamental Rights.\n\nWhich of the statements given above is incorrect?",
+        "options": {
+            "a": "1 only",
+            "b": "2 only",
+            "c": "Both 1 and 2",
+            "d": "Neither 1 nor 2"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. Article 32 allows individuals to directly approach the Supreme Court for the enforcement of Fundamental Rights. It does not apply to legal or constitutional rights beyond this scope.",
+            "Statement 2 is incorrect. The Supreme Court has original but not exclusive jurisdiction under Article 32. High Courts also have concurrent jurisdiction under Article 226 to enforce Fundamental Rights."
+        ]
+    },
+    {
+        "question": "Consider the following statements:\n\n1. The Constitution has declared **Hindi and English** as the languages for conducting business in Parliament. \n2. The **Leader of the House** can permit a member to address Parliament in their mother tongue.\n\nWhich of the statements given above is correct?",
+        "options": {
+            "a": "1 only",
+            "b": "2 only",
+            "c": "Both 1 and 2",
+            "d": "Neither 1 nor 2"
+        },
+        "answer": "a",
+        "explanation": [
+            "Statement 1 is correct. Article 120 of the Indian Constitution states that the business in Parliament shall be conducted in Hindi or English unless otherwise permitted by law.\n",
+            "Statement 2 is incorrect. It is the Presiding Officer of the House (Speaker of the Lok Sabha or Chairman of the Rajya Sabha), not the Leader of the House, who has the authority to permit a member to speak in their mother tongue.\n"
+        ]
+    },
+    {
+        "question": "Consider the following statements:\n 1. According to the Constitution of India, the Central Government has a duty to protect States from internal disturbances.\n 2. The Constitution of India exempts the States from providing legal counsel to a person being held for preventive detention.\n 3. According to the Prevention of Terrorism Act, 2002, confession of the accused before the police cannot be used as evidence.",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. Article 355 of the Constitution states that it is the duty of the Union Government to protect States against external aggression and internal disturbances.\n",
+            "Statement 2 is correct. Article 22(3)(b) of the Constitution allows for preventive detention without the right to legal counsel.\n",
+            "Statement 3 is incorrect. The Prevention of Terrorism Act (POTA), 2002, allowed confessions to police officers to be used as evidence, though this was later repealed.\n"
+        ]
+    },
+    {
+        "question": "Consider the following pairs:\n Rules and Procedures Committee - Rajendra Prasad,\n Fundamental Rights Sub-Committee - H.C. Mukherjee,\n Ad-hoc Committee on SCs - Nalini Ranjan Sarkar,\n House Committee - B. Pattabhi Sitaramayya.\n How many of the pairs given above are correctly matched?",
+        "options": {
+            "a": "Only one pair",
+            "b": "Only two pairs",
+            "c": "Only three pairs",
+            "d": "All four pairs"
+        },
+        "answer": "b",
+        "explanation": [
+            "Correct Pairs: Rules and Procedures Committee was chaired by Rajendra Prasad.\n",
+            "Fundamental Rights Sub-Committee was chaired by J.B. Kripalani, not H.C. Mukherjee.\n",
+            "Ad-hoc Committee on SCs was not chaired by Nalini Ranjan Sarkar.\n",
+            "House Committee was chaired by B. Pattabhi Sitaramayya.\n"
+        ]
+    },
+    {
+        "question": "The term 'socialist' added by the 42nd Amendment in 1976 also included socialist content in the form of Directive Principles of State Policy.\n Considering this, which of the following truly reflects Indian socialism?",
+        "options": {
+            "a": "Utopian Socialism",
+            "b": "Communistic Socialism",
+            "c": "Ethical Socialism",
+            "d": "Democratic Socialism"
+        },
+        "answer": "d",
+        "explanation": [
+            "Indian socialism is Democratic Socialism, which combines political democracy with economic and social justice.\n",
+            "Unlike Communistic Socialism, it does not advocate complete state control over the economy but supports a mixed economy.\n"
+        ]
+    },
+    {
+        "question": "Consider the following members:\n N. Gopalaswami,\n B.R. Ambedkar,\n Muhammad Saadulla,\n B.L. Mitter,\n K.M Munshi.\n How many of the members given above were part of the Drafting Committee?",
+        "options": {
+            "a": "Only two",
+            "b": "Only three",
+            "c": "Only four",
+            "d": "All five"
+        },
+        "answer": "d",
+        "explanation": [
+            "The Drafting Committee of the Indian Constitution consisted of seven members, including: Dr. B.R. Ambedkar (Chairman), N. Gopalaswami Ayyangar, Alladi Krishnaswami Ayyar, K.M. Munshi, Mohammad Saadulla, B.L. Mitter (later replaced by N. Madhava Rau), D.P. Khaitan (later replaced by T.T. Krishnamachari)."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Joint Sitting of both Houses of Parliament in India:\n 1. A deadlock for a joint sitting is deemed to have occurred if more than six months have elapsed without the bill being passed by the other House.\n 2. The Speaker of Lok Sabha has the authority to summon both Houses for a joint sitting in the event of a deadlock.\n 3. Joint Sitting is governed by the rules of Procedure of Lok Sabha and not by Rajya Sabha.\n How many of the above statements are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. A joint sitting is called if a bill is rejected, stuck due to amendments, or not passed within six months by the other House.\n",
+            "Statement 2 is incorrect. The President, not the Speaker, has the authority to summon both Houses for a joint sitting.\n",
+            "Statement 3 is correct. The rules of procedure for a joint sitting are governed by Lok Sabha, not Rajya Sabha.\n"
+        ]
+    },
+    {
+        "question": "With reference to the Parliamentary Forums in India, consider the following statements:\n 1. The Speaker of the Lok Sabha is the ex-officio President of all the Parliamentary Forums except the Parliamentary Forum on Population and Public Health.\n 2. Each Parliamentary Forum has a maximum of 31 participants, including the President, Co-President, and Vice-Presidents.\n 3. The duration of the office of members of the forum is co-terminus with their membership in the respective Houses.\n How many of the statements given above are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. The Speaker of Lok Sabha is the ex-officio President of all the Parliamentary Forums except for the Parliamentary Forum on Population and Public Health, where the Chairman of Rajya Sabha is the ex-officio President.\n",
+            "Statement 2 is incorrect. Each Parliamentary Forum has a maximum of 31 participants, excluding the President, Co-President, and Vice-Presidents.\n",
+            "Statement 3 is correct. The duration of membership in the forum is co-terminus with their tenure in Parliament.\n"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Centre’s Control Over State Legislation:\n 1. The Constitution has assigned a position of superiority to the Centre in the legislative sphere.\n 2. The Centre exercises unlimited control over state legislation through various constitutional provisions.\n 3. The President enjoys absolute veto over certain types of bills passed by the state legislature.\n How many of the statements given above are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. The Constitution assigns a superior role to the Centre in legislation, such as the Governor reserving certain bills for Presidential assent and Union law prevailing over State law in Concurrent List matters.\n",
+            "Statement 2 is incorrect. While the Centre has significant control, it is not unlimited—states still have autonomy in State List subjects.\n",
+            "Statement 3 is correct. The President can exercise an absolute veto over certain state bills reserved under Article 200, meaning they can withhold assent indefinitely.\n"
+        ]
+    },
+    {
+        "question": "Consider the following statements:\n 1. The Right to Equality endorses the principle that all humans are equal.\n 2. It acknowledges that certain factors, such as a person’s caste, can hinder equality in actual scenarios.\n 3. The First Amendment Act of 1951 empowers the state to create specific arrangements for the betterment of citizens who are socially and educationally disadvantaged.\n How many of the above statements are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "c",
+        "explanation": [
+            "Statement 1 is correct. Articles 14 to 18 of the Constitution enshrine the Right to Equality, ensuring equality before the law.\n",
+            "Statement 2 is correct. The Constitution acknowledges social inequalities, allowing for affirmative action such as reservation for SCs, STs, and OBCs.\n",
+            "Statement 3 is correct. The First Amendment Act, 1951, introduced Article 15(4), empowering the State to make special provisions for socially and educationally backward classes.\n"
+        ]
+    },
+    {
+        "question": "What is the main difference between Fundamental Rights and the Directive Principles of State Policy?",
+        "options": {
+            "a": "Legal Protection",
+            "b": "Political Protection",
+            "c": "Social Protection",
+            "d": "Moral Protection"
+        },
+        "answer": "a",
+        "explanation": [
+            "Fundamental Rights (FRs) are legally enforceable—a person can approach courts if they are violated (Article 32 for Supreme Court and Article 226 for High Courts).",
+            "Directive Principles of State Policy (DPSPs) are non-justiciable, meaning they cannot be enforced in a court of law. They act as guidelines for the State to achieve socio-economic justice."
+        ]
+    },
+    {
+        "question": "Which of the following statements is/are correct with respect to the removal of the UPSC chairman or any other member from office?\n 1. The President can remove the chairman or any other member of UPSC for misbehavior.\n 2. The term 'misbehavior' is defined in the Constitution.\n 3. If any member goes bankrupt, the President can remove them.\n Select the correct answer using the code given below:",
+        "options": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2, and 3"
+        },
+        "answer": "d",
+        "explanation": [
+            "Statement 1 is correct. As per Article 317(1) of the Indian Constitution, the President can remove a UPSC chairman or member for misbehavior.\n",
+            "Statement 2 is correct. The term 'misbehavior' is defined in the Constitution. A UPSC member is deemed guilty of misbehavior if they engage in paid employment outside their duties.\n",
+            "Statement 3 is correct. Under Article 317(3), the President can remove a UPSC member if they are declared bankrupt, engage in corruption, or become physically or mentally unfit.\n"
+        ]
+    },
+    {
+        "question": "Assess the validity of the following statements regarding the Inter-State Council: \n\n1. The Inter-State Council, established under Article 263 of the Constitution, functions as a permanent body dedicated to Center-State and Inter-State coordination and cooperation. \n2. The Council primarily acts as a platform for deliberations among different governmental bodies, including the Chief Ministers of all states and Union Territories with legislative assemblies. \n3. The recommendations put forth by the Inter-State Council are legally binding and require obligatory implementation by the respective governments. \n\nHow many of the above statements are incorrect?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is incorrect. The Inter-State Council is not a permanent body but is established under Article 263 to facilitate coordination and cooperation. \n",
+            "Statement 2 is correct. It serves as a platform for discussion among various governmental entities, including Chief Ministers of states and Union Territories with legislatures. \n",
+            "Statement 3 is incorrect. The recommendations of the Inter-State Council are advisory in nature and not legally binding. \n"
+        ]
+    },
+    {
+        "question": "With reference to voting in India’s parliamentary democracy, consider the following statements: \n\n1. Voting is a fundamental right provided under Article 326 of the Indian Constitution. \n2. The Election Commission of India has proposed to allow online voting for Non-Resident Indians (NRIs) living abroad. \n3. The implementation of common electoral rolls for elections conducted by the Election Commission and State Election Commissions has brought significant changes in voting patterns. \n4. Proxy voting, whereby a voter can delegate their voting power to a nominee, is not permitted in India in any case. \n\nHow many of the statements given above are incorrect?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "Only three",
+            "d": "All four"
+        },
+        "answer": "c",
+        "explanation": [
+            "Statement 1 is incorrect. Voting is a constitutional right under Article 326, not a fundamental right. \n",
+            "Statement 2 is correct. The Election Commission of India has proposed online voting for NRIs, but it has not been implemented yet. \n",
+            "Statement 3 is incorrect. Common electoral rolls have not yet been implemented. \n",
+            "Statement 4 is incorrect. Proxy voting is allowed for service voters, such as armed forces personnel. \n"
+        ]
+    },
+    {
+        "question": "Which one of the following jurisdictions of the Indian judiciary covers Public Interest Litigation?",
+        "options": {
+            "a": "Original Jurisdiction",
+            "b": "Appellate Jurisdiction",
+            "c": "Epistolary Jurisdiction",
+            "d": "Advisory Jurisdiction"
+        },
+        "answer": "c",
+        "explanation": [
+            "Public Interest Litigation (PIL) falls under Epistolary Jurisdiction, where courts take up cases based on letters or media reports addressing public grievances. \n",
+            "Original Jurisdiction covers cases like Centre-State disputes (Article 131). \n",
+            "Appellate Jurisdiction deals with appeals from lower courts. \n",
+            "Advisory Jurisdiction (Article 143) allows the Supreme Court to give opinions to the President. \n"
+        ]
+    },
+    {
+        "question": "Which of the following fundamental rights encompasses the rights to free legal aid, a fair trial, a hearing, and a speedy trial for citizens? \n\n(a) Equality before the law and equal protection under the law \n(b) Right against exploitation \n(c) Protection of life and personal liberty \n(d) Right against arbitrary arrest and detention",
+        "options": {
+            "a": "Equality before the law and equal protection under the law",
+            "b": "Right against exploitation",
+            "c": "Protection of life and personal liberty",
+            "d": "Right against arbitrary arrest and detention"
+        },
+        "answer": "c",
+        "explanation": [
+            "These rights are part of Article 21 of the Indian Constitution, interpreted expansively by the Supreme Court to include free legal aid, fair trial, hearing, and speedy trial. \n",
+            "Article 14 (Equality before the law) does not explicitly cover legal aid or fair trials. \n",
+            "Articles 23 & 24 (Right against exploitation) relate to forced labor and child labor, not fair trial rights. \n",
+            "Article 22 (Right against arbitrary arrest and detention) does not include free legal aid or fair trials. \n"
+        ]
+    },
+    {
+        "question": "With reference to the Parliament of India, consider the following statements: \n\n1. A Private Member Bill is introduced by a legislator who is not acting in an official capacity for the executive branch. \n2. Any member of Parliament can introduce a Constitutional Amendment bill. \n3. A Private Member is restricted from introducing more than four bills during a single session. \n\nHow many of the statements given above are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "c",
+        "explanation": [
+            "Statement 1 is correct. A Private Member’s Bill is introduced by an MP who is not a Minister. \n",
+            "Statement 2 is correct. Any MP, whether a Minister or a Private Member, can introduce a Constitutional Amendment Bill. \n",
+            "Statement 3 is correct. A Private Member is restricted to introducing a maximum of four Bills per session, as per rules of the Committee on Private Members’ Bills and Resolutions. \n"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the parliamentary proceedings in India:\n\n1. Questions during the Question Hour can only be addressed to ministers, and private members cannot be asked questions during this particular session.\n2. The zero hour is a statutory provision which was later added into the Rules of Procedure of Parliament.\n3. MPs who submit starred questions are allowed to ask supplementary questions, while there is no such provision for MPs who submit unstarred questions.\n4. All resolutions are substantive motions. All motions may not be substantive.\n\nHow many of the above statements is/are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "Only three",
+            "d": "All of the above"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is incorrect. While most questions during the Question Hour are addressed to ministers, it is also possible to address questions to private members under specific circumstances.",
+            "Statement 2 is incorrect. Zero Hour is not a statutory provision. It is an informal practice and is not mentioned in the Rules of Procedure.",
+            "Statement 3 is correct. Starred questions require an oral answer, and MPs can ask supplementary questions. In contrast, unstarred questions receive written replies, and no supplementary questions are permitted.",
+            "Statement 4 is correct. Resolutions are a type of substantive motion, but motions can be substantive, subsidiary, or ancillary."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Preamble of the Indian Constitution:\n\n1. It leads to the underlying justification that serves as the ultimate sanction for the creation of the Constitution.\n2. It confers authority upon the organs of the government.\n3. In the Berubari Union Case, the Supreme Court rendered a judgment asserting that the preamble is an integral component of the Constitution.\n4. It has an enacting clause that brings the Constitution into force.\n\nHow many of the above statements is/are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "Only three",
+            "d": "All four"
+        },
+        "answer": "a",
+        "explanation": [
+            "Statement 1 is correct. The Preamble provides clarity on the ultimate sanction behind the making of the Constitution.",
+            "Statement 2 is incorrect. The Preamble does not confer authority upon the organs of government. It only outlines the objectives and ideals of the Constitution.",
+            "Statement 3 is incorrect. The Kesavananda Bharati case (1973) overruled the Berubari Union case, affirming that the Preamble is a part of the Constitution.",
+            "Statement 4 is incorrect. The Preamble does not contain an enacting clause. The Constitution was enacted on November 26, 1949, but came into force on January 26, 1950."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Gram Nyayalayas:\n\n1. The State Government appoints a Nyayadhikari for every Gram Nyayalaya in consultation with the High Court.\n2. To be eligible for appointment as a Nyayadhikari, a person must qualify for appointment as a Judicial Magistrate of the first class.\n3. It is bound by the rules of evidence provided in the Indian Evidence Act, 1872.\n4. It functions as a stationary court and exercises civil court powers but not criminal court powers.\n\nHow many of the statements given above are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "Only three",
+            "d": "All of the above"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. The State Government appoints a Nyayadhikari for every Gram Nyayalaya in consultation with the High Court, as per the Gram Nyayalayas Act, 2008.",
+            "Statement 2 is correct. The Gram Nyayalayas Act specifies that a person must qualify as a Judicial Magistrate of the first class to be appointed as a Nyayadhikari.",
+            "Statement 3 is incorrect. The Gram Nyayalaya is not bound by the Indian Evidence Act, 1872. Instead, it follows principles of natural justice.",
+            "Statement 4 is incorrect. Gram Nyayalayas function as mobile courts, not stationary courts, and they exercise both criminal and civil powers."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding bills that require the recommendation of the President for introduction in Parliament:\n\n1. A bill imposing any tax or duty in which States are interested.\n2. A bill varying the meaning of the expression ‘agricultural income’ necessitates the recommendation of the President.\n3. A Constitutional Amendment Bill requires the prior recommendation of the President to be introduced in Parliament.\n4. A bill imposing any surcharge on specified tax or duty for the purpose of the Centre.\n\nHow many of the statements given above are correct?",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "Only three",
+            "d": "All four"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. A bill imposing or varying any tax or duty in which States are interested requires the recommendation of the President.",
+            "Statement 2 is correct. A bill varying the meaning of the expression ‘agricultural income’ also requires the recommendation of the President.",
+            "Statement 3 is incorrect. A Constitutional Amendment Bill does not require the President’s recommendation for introduction in Parliament.",
+            "Statement 4 is incorrect. A bill imposing any surcharge for the Centre does not need the President’s recommendation."
+        ]
+    },
+    {
+        "question": "Which of the following statements correctly describes the Supreme Court’s power to grant Special Leave to Appeal in India?\n\n1. The power to grant Special Leave to Appeal is an absolute right of the petitioner.\n2. Special Leave to Appeal can only be granted for final judgments and orders.\n3. The provision for Special Leave to Appeal is applicable to a wide range of matters, including constitutional, civil, and criminal issues.\n4. Appeals through Special Leave cannot be made against decisions of military tribunals.\n\nSelect the correct answer using code given below:",
+        "options": {
+            "a": "1 and 2 only",
+            "b": "1, 2 and 3 only",
+            "c": "3 and 4 only",
+            "d": "1, 3 and 4 only"
+        },
+        "answer": "c",
+        "explanation": [
+            "Statement 1 is incorrect. The power to grant Special Leave to Appeal under Article 136 is discretionary and rests solely with the Supreme Court. It is not an absolute right of the petitioner.",
+            "Statement 2 is incorrect. Special Leave to Appeal can be granted even against interim orders, not just final judgments.",
+            "Statement 3 is correct. Article 136 allows appeals in a wide range of cases, including constitutional, civil, and criminal matters.",
+            "Statement 4 is correct. Appeals under Special Leave cannot be made against military tribunal decisions."
+        ]
+    },
+    {
+        "question": "Regarding the role of the Comptroller & Auditor General (CAG) of India, consider the following statements: \n\n1. The CAG possesses greater autonomy in the examination of expenditures compared to the scrutiny of income, stores, and inventory. \n2. The CAG performs solely three varieties of audits, specifically legal, regulatory, and propriety audits. \n3. The CAG does not hold any authority concerning the disbursement of funds from the Consolidated Fund of India.",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. The CAG’s primary role is to ensure that public funds are spent as per the law and in a manner consistent with propriety. Its scrutiny of expenditures is rigorous and independent, while the examination of income, stores, and inventory is more routine.",
+            "Statement 2 is incorrect. The CAG performs three main types of audits: Financial Audit, Compliance Audit, and Performance Audit rather than just legal, regulatory, and propriety audits.",
+            "Statement 3 is correct. The CAG has no role in the disbursement of funds from the Consolidated Fund of India. It is only responsible for auditing expenditures."
+        ]
+    },
+    {
+        "question": "Consider the following provisions in the Indian Constitution: \n\n1. Federal Scheme and Office of Governor \n2. Advisory jurisdiction of the Supreme Court \n3. Impeachment of the President and removal of Supreme Court Judges \n4. Concurrent List",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "Only three",
+            "d": "All"
+        },
+        "answer": "c",
+        "explanation": [
+            "Federal Scheme and Office of Governor – Borrowed from the Government of India Act, 1935, not directly from any other country.",
+            "Advisory Jurisdiction of the Supreme Court – Borrowed from the Canadian Constitution.",
+            "Impeachment of the President and removal of Supreme Court Judges – Borrowed from the U.S. Constitution.",
+            "Concurrent List – Borrowed from the Australian Constitution."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Central Bureau of Investigation (CBI): \n\n1. It operates under the Ministry of Home Affairs. \n2. It is not completely exempted from the Right to Information (RTI) Act. \n3. It can conduct investigations in a state without requiring the consent of the state government if authorized by the Central Government. \n4. It serves as the central agency for extraditing fugitives from foreign countries to India and coordinating investigations on behalf of Interpol member countries.",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "Only three",
+            "d": "All four"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is incorrect. The CBI operates under the Department of Personnel and Training (DoPT), which comes under the Ministry of Personnel, Public Grievances, and Pensions, not the Ministry of Home Affairs.",
+            "Statement 2 is correct. The CBI is exempt from RTI in certain matters but not completely exempt.",
+            "Statement 3 is incorrect. The CBI requires the prior consent of the state government under the Delhi Special Police Establishment (DSPE) Act, 1946, unless directed by the Supreme Court or High Courts.",
+            "Statement 4 is correct. The CBI is India’s nodal agency for Interpol and handles extradition requests in coordination with the Ministry of External Affairs (MEA)."
+        ]
+    },
+    {
+        "question": "With regards to the State Election Commission, examine the following statements: \n\n1. The superintendence, direction, and control of the preparation of electoral rolls and the conduct of elections to the panchayats are vested in the State Election Commission. \n2. The State Election Commissioner is appointed by the Chief Minister of the state. \n3. The State Election Commissioner is removed from office in the manner and on the grounds prescribed for the removal of a judge of the High Court.",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. Article 243K of the Constitution vests the superintendence, direction, and control of Panchayat elections in the State Election Commission.",
+            "Statement 2 is incorrect. The State Election Commissioner is appointed by the Governor, not the Chief Minister.",
+            "Statement 3 is correct. The State Election Commissioner can only be removed in the same manner and on the same grounds as a High Court judge."
+        ]
+    },
+    {
+        "question": "Which of the following statements most accurately describes the Doctrine of Severability? \n(a) It allows the judiciary to strike down an entire law if any part of it is found unconstitutional. \n(b) It permits the removal of unconstitutional provisions in a law while retaining the valid portions that can operate independently. \n(c) It grants Parliament the power to amend a law to remove its unconstitutional elements without judicial review. \n(d) It allows the government to suspend certain provisions of a law if they conflict with Fundamental Rights.",
+        "options": {
+            "a": "It allows the judiciary to strike down an entire law if any part of it is found unconstitutional.",
+            "b": "It permits the removal of unconstitutional provisions in a law while retaining the valid portions that can operate independently.",
+            "c": "It grants Parliament the power to amend a law to remove its unconstitutional elements without judicial review.",
+            "d": "It allows the government to suspend certain provisions of a law if they conflict with Fundamental Rights."
+        },
+        "answer": "b",
+        "explanation": [
+            "Doctrine of Severability: This doctrine, enshrined in Article 13 of the Indian Constitution, empowers courts to invalidate only the unconstitutional portions of a law, while preserving the remaining valid portions if they can function independently.",
+            "Option (a) is incorrect: The doctrine does not require striking down an entire law if a part of it is unconstitutional. Only the specific provisions conflicting with the Constitution are invalidated.",
+            "Option (c) is incorrect: Parliament has the power to amend laws but cannot escape judicial review, especially when a law conflicts with Fundamental Rights or other constitutional provisions.",
+            "Option (d) is incorrect: The government cannot suspend provisions of a law arbitrarily. Any suspension or invalidation must follow judicial review."
+        ]
+    },
+    {
+        "question": "Which of the following statements is/are correct with respect to borrowing by the Centre and the States? \n1. Parliament can enact laws to put limits on central government borrowing. \n2. A state government can borrow either within or outside the securities of the Consolidated Fund of the State. \n3. The central government can give guarantees in respect of loans raised by any state.",
+        "options": {
+            "a": "1 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "3 only"
+        },
+        "answer": "c",
+        "explanation": [
+            "Statement 1 is correct. Article 293(1) of the Constitution gives Parliament the power to regulate and limit borrowing by the Central Government.",
+            "Statement 2 is incorrect. As per Article 293, a state government can only borrow within the framework of the Consolidated Fund of the State. It cannot borrow outside of this framework.",
+            "Statement 3 is correct. Article 292 allows the Central Government to give guarantees for loans raised by any state or entity, subject to conditions laid down by Parliament."
+        ]
+    },
+    {
+        "question": "With respect to the distribution of executive power between the Centre and States, consider the following statements: \n1. The Governor of a state may, with the consent of the Central Government, entrust to that government any of the executive functions of the state. \n2. Parliament can entrust the Centre’s executive function to any state without the consent of that state.",
+        "options": {
+            "a": "1 only",
+            "b": "2 only",
+            "c": "Both 1 and 2",
+            "d": "Neither 1 nor 2"
+        },
+        "answer": "c",
+        "explanation": [
+            "Statement 1 is correct. As per Article 258A, the Governor can entrust executive functions of the State to the Centre, but consent of the Central Government is required.",
+            "Statement 2 is correct. Parliament can entrust the Centre’s executive function to a State without the consent of that State. In this case, the delegation is by Parliament and not by the President."
+        ]
+    },
+    {
+        "question": "Consider the following statements: \n1. India operates under a dual governance system and possesses a bifurcated judiciary. \n2. The Supreme Court of India has determined that the federal character of the nation is integral to the Constitution’s fundamental framework. \n3. In a confederal system, the states hold supremacy and are loosely connected by a central authority with limited power.",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is incorrect. India has an integrated judicial system, where the judiciary is unified under the Supreme Court, followed by High Courts for each state or group of states, and then lower courts.",
+            "Statement 2 is correct. The Supreme Court has ruled that India’s federal character is a part of the Basic Structure and cannot be altered even by a Constitutional amendment.",
+            "Statement 3 is correct. A confederal system is characterized by the supremacy of constituent states, with a central government that has limited powers."
+        ]
+    },
+    {
+        "question": "Which of the following committees is/are categorized under the financial committee? \n1. Public Accounts Committee \n2. Committee on Commerce \n3. Public Undertakings Committee \n4. Committee on External Affairs",
+        "options": {
+            "a": "1, 2, and 3 only",
+            "b": "2 and 4 only",
+            "c": "2 and 3 only",
+            "d": "1 and 3 only"
+        },
+        "answer": "d",
+        "explanation": [
+            "The financial committees of the Indian Parliament primarily deal with financial oversight and accountability. They include:",
+            "Public Accounts Committee (PAC): Examines the annual audit reports of the Comptroller and Auditor General (CAG) and ensures that public funds are used efficiently.",
+            "Public Undertakings Committee (PUC): Examines the accounts and performance of public sector undertakings.",
+            "The Committee on Commerce and the Committee on External Affairs are department-related standing committees and are not categorized as financial committees."
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the differences between the Indian Parliamentary system and the British Parliamentary system: \n1. India has a republican democratic system instead of the British monarchical system, where the British Head holds a hereditary position. \n2. The Indian Parliament operates under constitutional supremacy, which provides a system of checks and balances not present in the British parliamentary system, where parliamentary sovereignty allows for unrestricted legislative authority. \n3. In Britain, the Prime Minister must be a member of the House of Lords, while in India, the Prime Minister may be a member of either house of Parliament.",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. India is a republic, where the President is an elected head of state, unlike the British monarchy, where the head of state is a hereditary sovereign.",
+            "Statement 2 is correct. India follows constitutional supremacy, meaning all laws must adhere to the Constitution and are subject to judicial review. In contrast, the UK follows parliamentary sovereignty, where Parliament has unrestricted legislative authority.",
+            "Statement 3 is incorrect. In Britain, the Prime Minister must be a member of the House of Commons, not the House of Lords. However, in India, the Prime Minister can be a member of either the Lok Sabha or Rajya Sabha."
+        ]
+    },
+    {
+        "question": "Consider the following statements: \n1. Unlike in the United States, India has not provided for a double system of courts. \n2. The organization of the subordinate judiciary varies slightly from state to state.",
+        "options": {
+            "a": "1 only",
+            "b": "2 only",
+            "c": "Both 1 and 2",
+            "d": "Neither 1 nor 2"
+        },
+        "answer": "d",
+        "explanation": [
+            "Statement 1 is correct. India has a unified judicial system where the Supreme Court is at the top, followed by High Courts and subordinate courts. The United States, in contrast, has a dual judicial system—separate federal and state courts.",
+            "Statement 2 is correct. While the subordinate judiciary operates uniformly under the framework of the Code of Civil Procedure (CPC) and Code of Criminal Procedure (CrPC), there are minor variations in the structure and nomenclature due to state-specific laws."
+        ]
+    },
+    {
+        "question": "With reference to the Contingency Fund, consider the following statements: \n1. Parliament may by law establish a Contingency Fund. \n2. The fund shall be placed at the disposal of the Prime Minister. \n3. The fund is used to meet unforeseen expenditures.",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. As per Article 267 of the Constitution of India, Parliament has the authority to establish a Contingency Fund.",
+            "Statement 2 is incorrect. The Contingency Fund of India is placed at the disposal of the President, not the Prime Minister. The President can authorize advances from this fund to meet unforeseen expenditures.",
+            "Statement 3 is correct. The Contingency Fund is used for urgent and unforeseen expenses, and the government later seeks Parliamentary approval."
+        ]
+    },
+    {
+        "question": "Which one of the following authorities makes recommendations to the Governor of a State as to the principles for determining the taxes and duties which may be appropriated by the Panchayats in that particular State?",
+        "options": {
+            "a": "District Planning Committees",
+            "b": "State Finance Commission",
+            "c": "Finance Ministry of that State",
+            "d": "Panchayati Raj Ministry of that State"
+        },
+        "answer": "b",
+        "explanation": [
+            "The State Finance Commission (SFC) is a constitutional body established under Article 243-I of the Indian Constitution.",
+            "It makes recommendations to the Governor of the State regarding the distribution of financial resources between the State and Panchayats, determining taxes, duties, tolls, and fees to be assigned to or shared with Panchayats, and allocating grants-in-aid to Panchayats from the Consolidated Fund of the State.",
+            "Incorrect options: \n(a) District Planning Committees: Focus on district-level development, not financial recommendations. \n(c) Finance Ministry of that State: Implements fiscal policies but does not recommend tax distribution. \n(d) Panchayati Raj Ministry of that State: Oversees Panchayats but does not make financial recommendations."
+        ]
+    },
+    {
+        "question": "Regarding the conditions under which a member of Parliament must vacate their seat:\n1. When an individual is elected to both Houses of Parliament, they are required to specify within 14 days which House they wish to serve in. If they fail to provide such notification, their seat in the Lok Sabha will be vacated.\n2. In cases where a person secures election to two seats within the same House, they must select one seat to occupy, or else both seats will be declared vacant.\n3. If a current member of one House is subsequently elected to the other House, their seat in the latter House will be vacated.",
+        "options": {
+            "a": "Only one",
+            "b": "Only two",
+            "c": "All three",
+            "d": "None"
+        },
+        "answer": "b",
+        "explanation": [
+            "Statement 1 is correct. Under the Representation of the People Act (1951), if a person is elected to both Lok Sabha and Rajya Sabha, they must choose within 14 days which House they wish to serve in. If they fail, their Rajya Sabha seat is vacated.",
+            "Statement 2 is correct. If a person is elected to two seats within the same House, they must choose one seat, or both will be vacated.",
+            "Statement 3 is incorrect. If a member of one House is elected to the other, their seat in the first House (not the latter) is vacated."
+        ]
+    }
+]
