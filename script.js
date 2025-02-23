@@ -18,7 +18,7 @@ function setupEventListeners() {
 
     document.getElementById("QUIZ2").addEventListener("click", async function (event) {
         event.preventDefault(); // Prevent default anchor behavior
-        await loadQuestions('QUIZ2.json'); // Load questions from QUIZ2.json
+        await loadQuestions('Quiz2.json'); // Load questions from QUIZ2.json
     });
 }
 
